@@ -24,5 +24,9 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --purple-main: #c770f0;
 }
+ 
+.purple{
+  color:var(--purple-main);
+} 
