@@ -8,6 +8,8 @@ import { ImageComponent } from "../ImageComponent";
 const HomePage = () => {
   return (
     <div>
+      <Stars/>
+
       <h1>
         Hi There! <span className={styles.wave}>👋🏻</span>
       </h1>
@@ -18,7 +20,6 @@ const HomePage = () => {
       </h1>
 
       <ImageComponent src={Image} height={200} width={200} alt={"Main home page image"} />
-      <Stars/>
       <TypeEffect/>
       <Intro/>
     </div>

@@ -24,7 +24,7 @@ const Intro = () => {
       </div>
 
       <div>
-        <h3>Find me on</h3>
+        <h2>Find me on</h2>
         <p>Feel free to <b className={styles.purple}>connect</b> with me.</p>
         <div>
           <Link href={`/`}>
