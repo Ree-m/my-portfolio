@@ -5,11 +5,11 @@ import { CgFileDocument } from "react-icons/cg";
 import styles from "../styles/header.module.css"
 const Header = () => {
   return (
-    <div>
+    <div className={styles.header}>
       <div className={styles.logo}>
-        <h1>Rb.</h1>
+        <Link href={`/`}><h1>Rb.</h1></Link>
       </div>
-      <div>
+      <div className={styles.navLinks}>
         <Link href={`/`}>
           <AiOutlineHome />
           Home
