@@ -15,7 +15,7 @@ const Header = () => {
           Home
         </Link>
 
-        <Link href={`/`}>
+        <Link href={`/about`}>
           <BsPerson />
           About
         </Link>
