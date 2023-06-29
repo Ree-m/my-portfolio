@@ -20,7 +20,7 @@ const Header = () => {
           About
         </Link>
 
-        <Link href={`/`}>
+        <Link href={`/projects`}>
           <AiOutlineFundProjectionScreen />
           Projects
         </Link>
