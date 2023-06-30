@@ -1,0 +1,16 @@
+.footer {
+  color: var(--text-white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(10, 4, 22);
+  bottom: 0;
+  padding: 20px 0px;
+}
+
+.footerIcons {
+  display: flex;
+  gap: 5px;
+  color: var(--text-white);
+}

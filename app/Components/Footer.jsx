@@ -1,14 +1,15 @@
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import Link from "next/link";
+import styles from "app/styles/footer.module.css"
 const Footer = () => {
   return (
-    <div>
+    <footer className={styles.footer}>
       <span>Developed by Reem, Designed by Soumyajit Behera</span>
       <span>Copyright © 2023 SB</span>
-      <div>
+      <div className={styles.footerIcons}>
         <Link href={`/`}>
-          <i>
+          <i> 
             <AiFillGithub />
           </i>
         </Link>
@@ -25,7 +26,7 @@ const Footer = () => {
           </i>
         </Link>
       </div>
-    </div>
+    </footer>
   );
 };
 
