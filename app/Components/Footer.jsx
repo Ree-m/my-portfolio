@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "app/styles/footer.module.css"
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <div className={styles.footer}>
       <span>Developed by Reem, Designed by Soumyajit Behera</span>
       <span>Copyright © 2023 SB</span>
       <div className={styles.footerIcons}>
@@ -26,7 +26,7 @@ const Footer = () => {
           </i>
         </Link>
       </div>
-    </footer>
+    </div>
   );
 };
 

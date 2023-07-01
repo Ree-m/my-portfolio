@@ -17,7 +17,7 @@ const HomePage = () => {
               Hi There! <span className={styles.wave}>👋🏻</span>
             </h1>
 
-            <h1>
+            <h1> 
               I AM
               <strong className="purple"> REEM BSRAT</strong>
             </h1>
@@ -26,13 +26,13 @@ const HomePage = () => {
 
           <ImageComponent
             src={Image}
-            height={200}
-            width={200}
+            height={400}
+            width={400}
             alt={"Main home page image"}
           />
         </div>
 
-        {/* <Intro /> */}
+        <Intro />
       </div>
     </div>
   );

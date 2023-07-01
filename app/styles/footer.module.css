@@ -1,16 +1,28 @@
 .footer {
   color: var(--text-white);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display:grid;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  grid-template-columns: repeat(3,1fr);
+  /* justify-content: center; */
   width: 100%;
   background-color: rgb(10, 4, 22);
+  position: sticky;
   bottom: 0;
-  padding: 20px 0px;
+  padding: 15px 0px;
+}
+.footer span{
+    text-align: center;
 }
 
-.footerIcons {
-  display: flex;
-  gap: 5px;
+.footerIcons{
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    font-size: 1.3rem;
+}
+
+
+.footerIcons i{
   color: var(--text-white);
 }
