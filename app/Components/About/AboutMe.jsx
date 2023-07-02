@@ -25,7 +25,7 @@ const AboutMe = () => {
             Writing Tech Blogs
             <br />
             Travelling
-            <br />
+            <br /> 
           </p>
 
           <p className={styles.quote}>

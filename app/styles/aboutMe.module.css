@@ -14,14 +14,14 @@
 }
 
 .aboutMeContent{
-    display: flex;
-    align-items: c;
+    display: flex; 
+    align-items: center;
     color:var(--text-white);
     font-size: 1.3rem;
 
 }
 .aboutMeContent p{
-    line-height: 30px;
+    line-height: px;
     margin-top: 20px;
 
 }
