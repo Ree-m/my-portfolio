@@ -7,11 +7,12 @@ import { ImageComponent } from "../ImageComponent";
 const Intro = () => {
   return (
     <div className={styles.intro}>
-      <h1>
-        Let me <span className={styles.purple}>introduce</span> myself
-      </h1>
+     
       <div className={styles.introMain}>
         <div>
+        <h1>
+        Let me <span className={styles.purple}>introduce</span> myself
+      </h1>
           <p>
             I fell in love with programming and I have at least learnt
             something, I think… 🤷‍♂️

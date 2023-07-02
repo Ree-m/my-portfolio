@@ -1,8 +1,17 @@
 import ProjectDetails from "@/app/Components/Projects/ProjectDetails";
-const ProjectDetailsPage = () => {
+import projectsData from "@/app/data/ProjectsData";
+
+const ProjectDetailsPage = ({params}) => {
+  const id=+params.id
+  const project = projectsData.find((project) => project.id === parseInt(id));
+
+  if (!project) {
+    return <div>Project not found</div>;
+  }
+
   return (
     <div>
-      <ProjectDetails />
+      <ProjectDetails projectData={project} />
     </div>
   );
 };
