@@ -1,6 +1,6 @@
 "use client"
 import Typewriter from 'typewriter-effect';
-import styles from "app/styles/typeEffect.module.css"
+import styles from "../../styles/typeEffect.module.css"
 
 const TypeEffect = () => {
   return (

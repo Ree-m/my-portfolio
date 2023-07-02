@@ -1,11 +1,14 @@
 import { ImageComponent } from "../ImageComponent";
 import Image from "app/Assests/undraw_dev_focus_re_6iwt.svg";
+import styles from "../../styles/aboutMe.module.css"
 const AboutMe = () => {
   return (
-    <div>
-      <h2>Know who I am </h2>
+    <div className={styles.aboutMe}>
 
-      <div>
+      <div className={styles.aboutMeContent}>
+        <div>
+        <h2>Know who <b className={styles.purple}>I am</b></h2>
+
         <p>
           Hi Everyone, I am Soumyajit Behera from Bhubaneswar, India. I am a
           final year student pursuing an Integrated MSc in Maths and Computing
@@ -24,11 +27,15 @@ const AboutMe = () => {
           <br />
         </p>
 
-        {/* "Strive to build things that make a difference!" -Soumyajit</p> */}
+               <p>`Strive to build things that make a difference!` -by </p>
+
+        </div>
+        
+
         <ImageComponent
           src={Image}
-          height={200}
-          width={200}
+          height={400}
+          width={400}
           alt={"About section image"}
         />
       </div>
