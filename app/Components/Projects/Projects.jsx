@@ -19,6 +19,7 @@ const Projects = () => {
             "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
           }
           src={"/app/Assests/Screenshot 2023-06-23 231657.png"}
+          id={1}
         />
 
         <Project
@@ -27,6 +28,7 @@ const Projects = () => {
             "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
           }
           src={"/app/Assests/Screenshot 2023-06-23 231657.png"}
+          id={2}
         />
 
         <Project
@@ -34,6 +36,7 @@ const Projects = () => {
           description={
             "Supports dark mode and easy to write blogs using markdownMy personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
           }
+          id={3}
         />
       </div>
     </div>
