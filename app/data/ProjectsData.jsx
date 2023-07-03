@@ -3,6 +3,7 @@ const projectsData = [
       id: 1,
       title: "Project 1",
       description: "Description of Project 1",
+      src:"/app/Assests/Screenshot 2023-06-23 231657.png",
       sections: [
         {
           title: "What I learned",
