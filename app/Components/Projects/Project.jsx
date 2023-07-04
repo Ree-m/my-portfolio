@@ -1,5 +1,5 @@
 import { ImageComponent } from "../ImageComponent";
-import Image from "app/Assests/Screenshot 2023-06-23 231657.png"
+import Image from "app/Assests/Screenshot 2023-07-04 050524.png"
 import Link from "next/link";
 import styles from "../../styles/project.module.css";
 
@@ -10,8 +10,9 @@ const Project = ({ name, description, src,id }) => {
     <div className={styles.project}>
       <ImageComponent
         src={Image}
-        height={250}
-        width={250}
+        height={300}
+        width={300}
+        objectFit="contain"
         alt={`Image of ${name} app`}
       />
       <div>

@@ -10,7 +10,7 @@ const Projects = () => {
           <h2>
             My recent <b className={styles.purple}>work</b>
           </h2>
-          <p>Here are a few projects I`&apos;`ve worked on recently.</p>
+          <p>Here are a few projects I&apos;ve worked on recently.</p>
         </div>
 
         <Project
