@@ -4,7 +4,6 @@
 .purple {
   color: var(--purple-main);
   font-weight: 400;
-
 }
 
 .intro h1 {
@@ -14,12 +13,12 @@
   /* align-self: center; */
   padding-bottom: 35px;
   font-weight: 400;
-
 }
 
 .intro p {
   font-size: 1.25rem;
   padding-bottom: 40px;
+  line-height: 30px;
 }
 
 .introMain {
@@ -40,9 +39,8 @@
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 400;
-
 }
-.socials p{
+.socials p {
   font-size: 1.2rem;
 }
 
@@ -69,7 +67,7 @@
   border-radius: 50%;
   transition: 0.5s;
 }
- 
+
 .icons i::before {
   content: "";
   position: absolute;
@@ -87,7 +85,7 @@
 .icons i:hover::before {
   transform: scale(1.1);
   box-shadow: 0 0 15px #801f95;
-} 
+}
 
 .icons i:hover {
   color: #87209e;
@@ -95,22 +93,30 @@
   text-shadow: 0 0 2px #87209e;
 }
 
-
-@media screen and (max-width:767px){
-  .intro{
+@media screen and (max-width: 767px) {
+  .intro {
     margin: 0px;
   }
-  .introMain{
+  .introMain {
     display: flex;
     flex-direction: column;
   }
-  .intro h1{
+  .intro h1 {
     font-size: 2rem;
   }
-  .socials h2{
+  .socials h2 {
     font-size: 2rem;
   }
-  .socials p{
+  .socials p {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro{
+    margin: 0px 50px;
+  }
+  .introMain {
+    justify-content: space-between;
   }
 }

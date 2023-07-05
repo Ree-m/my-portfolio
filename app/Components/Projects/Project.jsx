@@ -9,7 +9,7 @@ const Project = ({ name, description, src,id }) => {
   return (
     <div className={styles.project}>
       <ImageComponent
-        src={Image}
+        src={Image} 
         height={300}
         width={300}
         objectFit="contain"
@@ -22,7 +22,7 @@ const Project = ({ name, description, src,id }) => {
           <Link href={`/project/${id}`}>
             <button>
               <CgMoreVerticalR />
-              See More
+              Details
             </button>
           </Link>
 
