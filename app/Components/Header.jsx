@@ -40,11 +40,11 @@ const Header = () => {
           <AiOutlineFundProjectionScreen />
           Projects
         </Link>
-
+{/* 
         <Link href={`/`}>
           <CgFileDocument />
           Resume
-        </Link>
+        </Link> */}
       </div>
 
       <div className={styles.menu}>
@@ -72,11 +72,11 @@ const Header = () => {
           <AiOutlineFundProjectionScreen />
           Projects
         </Link>
-
+{/* 
         <Link href={`/`}>
           <CgFileDocument />
           Resume
-        </Link>
+        </Link> */}
         </div>
       ) : (
         ""

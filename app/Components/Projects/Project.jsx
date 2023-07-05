@@ -5,6 +5,7 @@ import styles from "../../styles/project.module.css";
 
 import { AiFillGithub } from "react-icons/ai";
 import { CgWebsite, CgMoreVerticalR } from "react-icons/cg";
+import {BiDetail} from "react-icons/bi"
 const Project = ({ name, description, src,id }) => {
   return (
     <div className={styles.project}>
@@ -21,7 +22,7 @@ const Project = ({ name, description, src,id }) => {
         <div className={styles.btns}>
           <Link href={`/project/${id}`}>
             <button>
-              <CgMoreVerticalR />
+              <BiDetail/>
               Details
             </button>
           </Link>

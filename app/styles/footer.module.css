@@ -25,6 +25,13 @@
 }
 
 
+.footerIcons i:hover {
+  /* box-shadow: 0 0 5px #87209e; */
+  color: var(--purple-main);
+}
+
+
+
 @media screen and (max-width:767px) {
   .footer{
     display: flex;

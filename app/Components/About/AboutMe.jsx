@@ -17,7 +17,7 @@ const AboutMe = () => {
             developer at Juspay.
           </p>
 
-          <p>
+          <p> 
             Apart from coding, some other activities that I love to do!
             <br />
             Playing Games
