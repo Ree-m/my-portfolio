@@ -1,5 +1,7 @@
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
+import {BiLogoGmail} from "react-icons/bi"
+
 import Link from "next/link";
 import styles from "app/styles/footer.module.css"
 const Footer = () => {
@@ -23,6 +25,11 @@ const Footer = () => {
         <Link href={`/`}>
           <i>
             <AiOutlineTwitter />
+          </i>
+        </Link>
+        <Link href={`/`}>
+          <i>
+            <BiLogoGmail />
           </i>
         </Link>
       </div>

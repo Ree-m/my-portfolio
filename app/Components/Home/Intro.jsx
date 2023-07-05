@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "../../styles/intro.module.css";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
+import {BiLogoGmail} from "react-icons/bi"
 import Image from "app/Assests/avatar.svg";
 import { ImageComponent } from "../ImageComponent";
 const Intro = () => {
@@ -68,6 +69,12 @@ const Intro = () => {
               <AiOutlineTwitter />
             </i>
           </Link>
+
+          <Link href={`/`}>
+          <i>
+            <BiLogoGmail />
+          </i>
+        </Link>
         </div>
       </div>
     </div>

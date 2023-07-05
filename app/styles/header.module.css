@@ -47,3 +47,7 @@
  .navLinks a:hover::after {
    width: 100%; 
  }
+
+ @media (max-width:143px){
+ 
+ }

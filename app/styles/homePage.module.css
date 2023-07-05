@@ -37,6 +37,7 @@
   color: var(--text-white);
   /* margin:0px 100px; */
   margin-top: 90px;
+  /* margin: 90px 140px 0px 140px; */
 }
 
 .hero{
@@ -49,4 +50,20 @@
 .hero h1{
   font-size: 3rem;
   padding-bottom: 17px;
+  font-weight: 400;
+}
+
+@media screen and (max-width:767px) {
+  .homePage{
+    margin-left:  50px ;
+    margin-right: 50px;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero h1{
+    font-size: 2.2rem;
+  }
 }

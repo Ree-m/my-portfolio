@@ -1,5 +1,11 @@
-.typeEffect{
-    color:var(--purple-main);
-    font-size: 3rem;
-    padding-top: 30px;
+.typeEffect {
+  color: var(--purple-main);
+  font-size: 3rem;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .typeEffect {
+    font-size: 1.8rem;
+  }
 }

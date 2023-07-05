@@ -23,8 +23,8 @@ const HomePage = () => {
             </h1>
             <TypeEffect />
           </div>
-
-          <ImageComponent
+ 
+          <ImageComponent 
             src={Image}
             height={400}
             width={400}

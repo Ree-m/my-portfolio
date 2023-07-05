@@ -7,7 +7,9 @@
 }
 
 .purple{
-    color:var(--purple-main)
+    color:var(--purple-main);
+    font-weight: 400;
+
 }
 .container{
     margin-bottom: 50px;
