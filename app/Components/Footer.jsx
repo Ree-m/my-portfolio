@@ -1,37 +1,38 @@
+"use client";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
-import {BiLogoGmail} from "react-icons/bi"
+import { BiLogoGmail } from "react-icons/bi";
 
 import Link from "next/link";
-import styles from "app/styles/footer.module.css"
+import styles from "app/styles/footer.module.css";
 const Footer = () => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
   return (
     <div className={styles.footer}>
       <span>Developed by Reem, Designed by Soumyajit Behera</span>
       <span>Copyright © 2023 SB</span>
       <div className={styles.footerIcons}>
-        <Link href={`/`}>
-          <i> 
+        <div>
+          <i onClick={() => openInNewTab("https://github.com/Ree-m")}>
             <AiFillGithub />
           </i>
-        </Link>
+        </div>
 
-        <Link href={`/`}>
-          <i>
+        <div>
+          <i onClick={()=>openInNewTab("https://www.linkedin.com/in/reem-bsrat-52a979264/")}>
             <GrLinkedinOption />
           </i>
-        </Link>
+        </div>
 
-        <Link href={`/`}>
-          <i>
-            <AiOutlineTwitter />
+      
+
+        <div>
+          <i  onClick={() => window.location = 'mailto:reembsrat@gmail.com'}>
+            <BiLogoGmail/>
           </i>
-        </Link>
-        <Link href={`/`}>
-          <i>
-            <BiLogoGmail />
-          </i>
-        </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import styles from "../../styles/intro.module.css";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
@@ -6,7 +7,11 @@ import {BiLogoGmail} from "react-icons/bi"
 import Image from "app/Assests/avatar.svg";
 import { ImageComponent } from "../ImageComponent";
 const Intro = () => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
   return (
+
     <div className={styles.intro}>
      
       <div className={styles.introMain}>
@@ -52,29 +57,27 @@ const Intro = () => {
           Feel free to <b className={styles.purple}>connect</b> with me.
         </p>
         <div className={styles.icons}>
-          <Link href={`/`}>
-            <i>
-              <AiFillGithub />
-            </i>
-          </Link>
-
-          <Link href={`/`}>
-            <i>
-              <GrLinkedinOption />
-            </i>
-          </Link>
-
-          <Link href={`/`}>
-            <i>
-              <AiOutlineTwitter />
-            </i>
-          </Link>
-
-          <Link href={`/`}>
-          <i>
-            <BiLogoGmail />
+         
+        <div>
+          <i onClick={() => openInNewTab("https://github.com/Ree-m")}>
+            <AiFillGithub />
           </i>
-        </Link>
+        </div>
+
+        <div>
+          <i onClick={()=>openInNewTab("https://www.linkedin.com/in/reem-bsrat-52a979264/")}>
+            <GrLinkedinOption />
+          </i>
+        </div>
+
+      
+
+        <div>
+          <i  onClick={() => window.location = 'mailto:reembsrat@gmail.com'}>
+            <BiLogoGmail/>
+          </i>
+        </div>
+  
         </div>
       </div>
     </div>

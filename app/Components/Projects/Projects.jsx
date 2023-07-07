@@ -8,7 +8,7 @@ const Projects = () => {
     <div>
       <Stars />
       <div className={styles.projects}>
-        <div className={styles.projectsTop}> 
+        <div className={styles.projectsTop}>
           <h2>
             My recent <b className={styles.purple}>work</b>
           </h2>
@@ -18,20 +18,19 @@ const Projects = () => {
         <Project
           name={"Manga Verse"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Manga Verse is a manga viewing app that utilizes a microservice architecture with Jikan API for retrieving manga data and Puppeteer for chapter scraping.It is built with Netxjs,Expressjs,Mongodb and Puppeteer. Its key features encompass user authentication, manga browsing, and manga reading experience."
           }
           // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={1}
           githubLink={"https://github.com/Ree-m/manga-verse"}
           demoLink={"https://manga-verse.onrender.com/"}
-          
         />
 
         <Project
           name={"Skinology"}
           description={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                   }
+            " Skinology is a full-stack ecommerce app that combines a React frontend with an Express/MongoDB backend. It boasts two distinct interfaces,a user interface and an admin. The admin interface gives administrators essential functionalities such as product management through adding, editing, and deleting products. On the other hand, the user interface prioritizes user authentication, along with a fully functional cart for convenient shopping. "
+          }
           // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={2}
           githubLink={"https://github.com/Ree-m/skinology-ecommerce-app"}
@@ -41,7 +40,7 @@ const Projects = () => {
         <Project
           name={"Book Finder"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Book Finder is a React frontend application that leverages the Google Books API. The standout feature of this app is its search functionality, allowing users to search for books by title, author, or publishing date. When a book is selected, detailed information about the book is displayed. Moreover, Book Finder is designed to be fully responsive, ensuring a seamless experience across various devices."
           }
           // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={3}
