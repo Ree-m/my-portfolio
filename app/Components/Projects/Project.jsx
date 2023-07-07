@@ -1,41 +1,50 @@
-import { ImageComponent } from "../ImageComponent";
-import Image from "app/Assests/Screenshot 2023-07-04 050524.png"
+"use client"
+import Image from "next/image";
+// import ImageSrc from "../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"
 import Link from "next/link";
 import styles from "../../styles/project.module.css";
 
 import { AiFillGithub } from "react-icons/ai";
-import { CgWebsite, CgMoreVerticalR } from "react-icons/cg";
-import {BiDetail} from "react-icons/bi"
-const Project = ({ name, description, src,id }) => {
+import { CgWebsite } from "react-icons/cg";
+import { BiDetail } from "react-icons/bi";
+const Project = ({ name, description,ImageSrc ,id,githubLink,demoLink }) => {
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
   return (
     <div className={styles.project}>
-      <ImageComponent
-        src={Image} 
-        height={300}
-        width={300}
-        objectFit="contain"
-        alt={`Image of ${name} app`}
-      />
+      <div className={styles.imgContainer}>
+          <Image
+            src={ImageSrc}
+            height={400}
+            width={400}
+            layout="responsive"
+            objectFit="cover"
+            alt={`Image of ${name} app`}
+            className={styles.img}
+          />
+      </div>
+
       <div>
         <h3>{name}</h3>
         <p>{description}</p>
         <div className={styles.btns}>
           <Link href={`/project/${id}`}>
             <button>
-              <BiDetail/>
+              <BiDetail />
               Details
             </button>
           </Link>
 
           <Link href={``}>
-            <button>
+            <button onClick={()=>openInNewTab(githubLink)}>
               <AiFillGithub />
               Github
             </button>
           </Link>
 
           <Link href={``}>
-            <button>
+            <button onClick={()=>openInNewTab(demoLink)}>
               <CgWebsite />
               Demo
             </button>

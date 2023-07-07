@@ -1,6 +1,8 @@
 import Project from "./Project";
 import Stars from "../Stars";
 import styles from "../../styles/projects.module.css";
+// import Image1 from "../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"
+
 const Projects = () => {
   return (
     <div>
@@ -16,27 +18,35 @@ const Projects = () => {
         <Project
           name={"Manga Verse"}
           description={
-            "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
-          src={"/app/Assests/Screenshot 2023-06-23 231657.png"}
+          // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={1}
+          githubLink={"https://github.com/Ree-m/manga-verse"}
+          demoLink={"https://manga-verse.onrender.com/"}
+          
         />
 
         <Project
-          name={"Manga Verse"}
+          name={"Skinology"}
           description={
-            "My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-          }
-          src={"/app/Assests/Screenshot 2023-06-23 231657.png"}
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                   }
+          // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={2}
+          githubLink={"https://github.com/Ree-m/skinology-ecommerce-app"}
+          demoLink={"https://skinology-ecommerce-app-client.onrender.com/"}
         />
 
         <Project
-          name={"Manga Verse"}
+          name={"Book Finder"}
           description={
-            "Supports dark mode and easy to write blogs using markdownMy personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
           }
+          // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={3}
+          githubLink={"https://github.com/Ree-m/BookFinder"}
+          demoLink={"https://skinology-ecommerce-app-client.onrender.com/"}
         />
       </div>
     </div>

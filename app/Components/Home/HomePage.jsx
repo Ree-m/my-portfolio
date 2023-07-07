@@ -17,19 +17,21 @@ const HomePage = () => {
               Hi There! <span className={styles.wave}>👋🏻</span>
             </h1>
 
-            <h1> 
+            <h1>
               I AM
               <strong className="purple"> REEM BSRAT</strong>
             </h1>
             <TypeEffect />
           </div>
- 
-          <ImageComponent 
-            src={Image}
-            height={400}
-            width={400}
-            alt={"Main home page image"}
-          />
+          <div className={styles.heroImg}>
+            <ImageComponent
+              src={Image}
+              layout="responsive"
+              width={400}
+              height={400}
+              alt={"Main home page image"}
+            />
+          </div>
         </div>
 
         <Intro />

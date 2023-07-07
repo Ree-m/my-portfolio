@@ -60,7 +60,7 @@ body {
 }
 
 .spinner {
-  border: 4px solid var(--purple-main);
+  border: 4px solid var(--text-white);
   border-left-color: var(--purple-main);
   border-radius: 50%;
   width: 40px;
