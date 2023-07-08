@@ -18,20 +18,21 @@ const Projects = () => {
         <Project
           name={"Manga Verse"}
           description={
-            "Manga Verse is a manga viewing app that utilizes a microservice architecture with Jikan API for retrieving manga data and Puppeteer for chapter scraping.It is built with Netxjs,Expressjs,Mongodb and Puppeteer. Its key features encompass user authentication, manga browsing, and manga reading experience."
+            "Manga Verse is an manga viewing app that utilizes a microservice architecture,integrating the Jikan API for manga data retrieval and Puppeteer for chapter scraping. Developed with technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse offers a seamless user experience. Its key features include user authentication, manga browsing with genre, popularity, and release date filtering options, and an immersive manga reading experience."
           }
-          // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
+          ImageSrc={`/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`}
           id={1}
           githubLink={"https://github.com/Ree-m/manga-verse"}
           demoLink={"https://manga-verse.onrender.com/"}
         />
 
         <Project
+        
           name={"Skinology"}
           description={
-            " Skinology is a full-stack ecommerce app that combines a React frontend with an Express/MongoDB backend. It boasts two distinct interfaces,a user interface and an admin. The admin interface gives administrators essential functionalities such as product management through adding, editing, and deleting products. On the other hand, the user interface prioritizes user authentication, along with a fully functional cart for convenient shopping. "
+            "Skinology is a full-stack ecommerce app that combines a React frontend with an Express/MongoDB backend. It boasts two interfaces,a user interface and an admin interface. The admin interface gives administrators essential functionalities such as product management through adding, editing, and deleting products while the user interface prioritizes user authentication, along with a fully functional cart for convenient shopping. "
           }
-          // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
+          ImageSrc={`/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={2}
           githubLink={"https://github.com/Ree-m/skinology-ecommerce-app"}
           demoLink={"https://skinology-ecommerce-app-client.onrender.com/"}
@@ -40,12 +41,12 @@ const Projects = () => {
         <Project
           name={"Book Finder"}
           description={
-            "Book Finder is a React frontend application that leverages the Google Books API. The standout feature of this app is its search functionality, allowing users to search for books by title, author, or publishing date. When a book is selected, detailed information about the book is displayed. Moreover, Book Finder is designed to be fully responsive, ensuring a seamless experience across various devices."
+            "Book Finder is a React frontend application that leverages the Google Books API.The key feature of this app is its search functionality, allowing users to search for books by title, author, or publishing date. When a book is selected, detailed information about the book is displayed. Moreover, Book Finder is designed to be fully responsive, ensuring a seamless experience across various devices."
           }
-          // ImageSrc={`/../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
+          ImageSrc={`/Assests/Screenshot 2023-07-07 161058.png`}
           id={3}
           githubLink={"https://github.com/Ree-m/BookFinder"}
-          demoLink={"https://skinology-ecommerce-app-client.onrender.com/"}
+          demoLink={"https://book-finder-lfxo.onrender.com/"}
         />
       </div>
     </div>

@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-// import ImageSrc from "../../Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"
+// import ImageSrc from "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"
 import Link from "next/link";
 import styles from "../../styles/project.module.css";
 
@@ -18,8 +18,8 @@ const Project = ({ name, description,ImageSrc ,id,githubLink,demoLink }) => {
             src={ImageSrc}
             height={400}
             width={400}
-            layout="responsive"
-            objectFit="cover"
+            // layout="responsive"
+            // objectFit="cover"
             alt={`Image of ${name} app`}
             className={styles.img}
           />

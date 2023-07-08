@@ -1,5 +1,5 @@
 import { ImageComponent } from "../ImageComponent";
-import Image from "app/Assests/undraw_dev_focus_re_6iwt.svg";
+import Image from "public/Assests/undraw_software_engineer_re_tnjc.svg";
 import styles from "../../styles/aboutMe.module.css";
 const AboutMe = () => {
   return (

@@ -2,7 +2,7 @@ import styles from "../../styles/projectDetails.module.css";
 import Stars from "../Stars";
 import { ImageComponent } from "../ImageComponent";
 import Image from "next/image";
-import src from "app/Assests/Screenshot 2023-06-23 231657.png";
+// import src from "./Assests/Screenshot 2023-06-23 231657.png";
 const ProjectDetails = ({ projectData }) => {
   const { title, description, src,sections } = projectData;
   return (

@@ -1,5 +1,6 @@
 .project {
   display: flex;
+  align-items: center;
   color: var(--text-white);
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459),
     0 -2px 5px 3px rgba(119, 53, 136, 0.459);
@@ -19,15 +20,19 @@
 
 
 .imgContainer{
-  /* width: 100%; */
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  flex-shrink: 0;
 }
 
-.img{
-  
-  /* object-fit: contain; */
-
-  /* height: auto; */
+.img{  
+  object-fit: cover; 
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 
 }
 
@@ -75,7 +80,7 @@
   }
 }
 
-@media (max-width:767px){
+@media (max-width:850px){
   .project{
     display: flex;
     flex-direction: column;
@@ -83,4 +88,15 @@
     align-items: center;
 
   }
+  
 }
+/* 
+@media (min-width:768px) and (max-width:1023px){
+
+  .project p{
+    font-size: 0.9rem;
+  }
+  .project h3{
+    font-size: 1.6rem;
+  }
+} */

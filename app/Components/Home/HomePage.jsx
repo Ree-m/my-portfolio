@@ -1,7 +1,7 @@
 import TypeEffect from "./TypeEffect";
 import Stars from "../Stars";
 import Intro from "./Intro";
-import Image from "../../Assests/undraw_dev_focus_re_6iwt.svg";
+import Image from "public/Assests/undraw_dev_focus_re_6iwt.svg";
 import styles from "../../styles/homePage.module.css";
 
 import { ImageComponent } from "../ImageComponent";

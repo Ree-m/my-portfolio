@@ -1,29 +1,53 @@
 const projectsData = [
     {
       id: 1,
-      title: "Skinology",
+      title: "Manga Verse",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ",
-      src:"/app/Assests/Screenshot 2023-06-23 231657.png",
+      ImageSrc:`/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`,
       sections: [
         {
-          title: "What I learned",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
+          title: "Introduction",
+          content: "",
+        }, 
         {
-          title: "Optimization",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          title: "Technologies used",
+          content: " "
 
           ,
         },
         {
-          title: "Things I would have done differently",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          title: "Key features",
+          content: ""
 
           ,
         },
         {
-          title: "Details",
-          content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          title: "Implentation details",
+          content: ""
+
+          ,
+        },
+        {
+          title: "Purpose and goals",
+          content: ""
+
+          ,
+        },
+        {
+          title: "Lessons learned",
+          content: ""
+
+          ,
+        },
+        {
+          title: "Things I would have differently",
+          content: ""
+
+          ,
+        },
+        {
+          title: "Future Improvement",
+          content: ""
 
           ,
         },
@@ -31,16 +55,18 @@ const projectsData = [
     },
     {
       id: 2,
-      title: "Project 2",
+      title: "Skinology",
       description: "Description of Project 2",
+      ImageSrc:`/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
       sections: [
         // Sections for Project 2
       ],
     },
     {
       id: 3,
-      title: "Project 3",
+      title: "Book Finder",
       description: "Description of Project 3",
+      ImageSrc:`/Assests/Screenshot 2023-07-07 161058.png`,
       sections: [
         // Sections for Project 3
       ],
@@ -48,4 +74,3 @@ const projectsData = [
   ];
   
   export default projectsData;
-  

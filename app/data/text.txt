@@ -1,0 +1,22 @@
+Intro:
+Manga verse is a full stack manga viewing app. 
+
+Technologies used:
+
+>Nextjs
+>Expressjs
+>MongoDB
+>Puppeteer
+
+
+Implementation details:
+
+Key Fetaures:
+
+
+Lessons Learned:
+To use servernside components unless absolutelt neccasry (for onClick event or so). Server side components are so convient,i dont have have to worry about make a laoding state but most importantly because of  suspanse boundries. Suspanase boundraies make user expreience much better.
+My favrouitr part of this project is the manga chapter page, where i can view the manga. This is achieved because of pupetter. I learned pupperteer for thisproject and was supriesd by how beginner friendly it was.
+
+Future Improvement:
+Make most compoennts server side. This is because i want to use suspense boundries to increase peroformance. Also sever compnents cache automatically which will agian increase performace.

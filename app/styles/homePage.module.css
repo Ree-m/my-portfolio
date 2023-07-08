@@ -35,14 +35,14 @@
 
 .homePage {
   color: var(--text-white);
-  /* margin:0px 100px; */
   margin-top: 90px;
   /* margin: 90px 140px 0px 140px; */
 }
 
 .hero {
+  margin: 0px 140px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 330px;
 }
@@ -51,6 +51,9 @@
   font-size: 3rem;
   padding-bottom: 17px;
   font-weight: 400;
+}
+.heroImg{
+  padding: 0px 10px;
 }
 /* 
 .hero img{
@@ -72,11 +75,13 @@
     margin-top: 200px;
   }
   .hero {
+    margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
     gap: 20px;
+
   }
   .hero h1 {
     font-size: 2.2rem;

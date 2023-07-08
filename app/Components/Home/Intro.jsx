@@ -4,7 +4,7 @@ import styles from "../../styles/intro.module.css";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import {BiLogoGmail} from "react-icons/bi"
-import Image from "app/Assests/avatar.svg";
+import Image from "public/Assests/avatar.svg";
 import { ImageComponent } from "../ImageComponent";
 const Intro = () => {
   const openInNewTab = (url) => {
