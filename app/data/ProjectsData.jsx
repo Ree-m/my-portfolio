@@ -38,6 +38,18 @@ const projectsData = [
         
           "These key features prioritize the manga reading aspect of the app, ensuring users can enjoy a user-friendly and personalized experience while exploring, filtering, bookmarking, and reading manga chapters effortlessly.",
         ],
+        images: [
+          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+
+        ],
+
       },
       {
         title: "Implentation details",
@@ -56,6 +68,7 @@ const projectsData = [
 
           "Overall, this project provided me with hands-on experience in Next.js, deepening my understanding of its features and benefits. I also gained insights into the importance of server-side components and the potential of tools like Puppeteer to enhance the functionality of web applications.",
         ],
+
       },
       {
         title: "Future Improvement",
@@ -119,10 +132,19 @@ const projectsData = [
           
           "These key features offer an engaging and user-friendly experience, providing admin control, secure authentication, seamless cart functionality, detailed product pages, search capabilities, and visually appealing carousels to showcase the best and newest products.",
           ],
-        // content:["1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables adminstrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory."],
-        // images:["/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"],
-        // content:["2. User Authentication: User authentication is implemented using JSON Web Tokens (JWT) and cookies. User passwords are securely encrypted using bcrypt and stored in the MongoDB database, ensuring the protection of user credentials."],
-        // images:["/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg"]
+          images: [
+            "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+            "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+            "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+            "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+            "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+            "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+            "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+            "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+            "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+
+          ],
+  
       },
       {
         title:"Lessons learned",
@@ -168,7 +190,7 @@ const projectsData = [
       },
       {
         title:"Technologies used",
-        content:["The app uses React and google books API."]
+        content:[">React",">Google books API",">Css",">Vercel"]
       },
       {
         title:"Implementation details",
@@ -182,7 +204,13 @@ const projectsData = [
         "2.Book Details Page: Clicking on a particular book from the search results or any other section of the application leads to the book details page. On this page, users can view comprehensive information about the book, including the book cover, title, summary, author, and publishing date. This feature provides users with a comprehensive overview of the selected book.",
         
         "These features contribute to enhancing the user experience by enabling efficient book search and providing comprehensive details for each book within the application.",
-      ]
+      ],
+      images: [
+        "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+        "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+      
+      ],
+
       },
       {
         title:"Lessons learned",
