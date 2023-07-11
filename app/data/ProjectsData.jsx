@@ -164,7 +164,7 @@ const projectsData = [
     sections: [
       {
         title:"Introduction",
-        content:["The app uses React and google books API."]
+        content:["Introducing the book finder app! Built using React and powered by the Google Books API, this application offers a seamless and engaging experience for searching and exploring books. With its intuitive search function, users can easily find books based on various criteria such as title, author, or publishing date. Clicking on a specific book reveals comprehensive details on the book details page, including the cover image, title, summary, author, and publishing date.        "]
       },
       {
         title:"Technologies used",
@@ -172,19 +172,29 @@ const projectsData = [
       },
       {
         title:"Implementation details",
-        content:["The app uses React and google books API."]
+        content:["The app is built using React and utilizes the Google Books API to fetch book data. React provides a robust framework for building the user interface and managing component states, while the Google Books API serves as the source of book information.",
+        "To implement the search function, the app sends search queries to the Google Books API and retrieves the corresponding search results. The search function is designed to allow users to search for books based on various criteria such as book title, author name, or publishing date."]
       },
       {
         title:"Key features",
-        content:["The app uses React and google books API."]
+        content:["1.Search Function: Users can utilize the search function to find books based on various criteria such as book title, author name, or publishing date. This feature enables users to easily discover specific books they are looking for.",
+
+        "2.Book Details Page: Clicking on a particular book from the search results or any other section of the application leads to the book details page. On this page, users can view comprehensive information about the book, including the book cover, title, summary, author, and publishing date. This feature provides users with a comprehensive overview of the selected book.",
+        
+        "These features contribute to enhancing the user experience by enabling efficient book search and providing comprehensive details for each book within the application.",
+      ]
       },
       {
         title:"Lessons learned",
-        content:["The app uses React and google books API."]
+        content:["This React app served as my first introduction to React. Throughout the development process, I gained valuable experience in utilizing React hooks, such as useState and useEffect, to manage state and handle side effects.",
+
+        "Additionally, I learned an important lesson about responsive design. Initially, I approached responsiveness by starting with larger devices. However, I soon realized that this approach led to messy and convoluted CSS code due to the cascading nature of CSS. As a result, I adopted a new approach for future projects, starting with mobile devices and gradually scaling up to larger screens. This change in approach greatly improved the maintainability and cleanliness of my code."]
       },
       {
         title:"Future Improvement",
-        content:["The app uses React and google books API."]
+        content:["User Authentication: Enhance the app's security and user experience by implementing user authentication using technologies such as JSON Web Tokens (JWT) or passport.js. This will enable registered users to securely log in, access personalized features, and protect their account information.",
+
+        "Bookmarking Feature: Provide registered users with the ability to bookmark their favorite books. This feature will allow users to save and easily access their preferred books, enhancing their overall reading experience and providing a convenient way to keep track of their reading list."]
       },
     ],
   },

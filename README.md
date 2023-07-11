@@ -190,4 +190,3 @@ Project Link: [https://github.com/Ree-m/skinology-ecommerce-app](https://github.
 [express-url]: https://expressjs.com/
 [jwt]: https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink
 
-
