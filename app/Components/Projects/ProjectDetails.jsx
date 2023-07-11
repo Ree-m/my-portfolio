@@ -1,36 +1,50 @@
+
+
 import styles from "../../styles/projectDetails.module.css";
 import Stars from "../Stars";
-import { ImageComponent } from "../ImageComponent";
 import Image from "next/image";
 // import src from "./Assests/Screenshot 2023-06-23 231657.png";
 const ProjectDetails = ({ projectData }) => {
-  const { title, description, src,sections } = projectData;
+  const { title, description, ImageSrc, sections } = projectData;
   return (
     <div className={styles.projectDetails}>
       <Stars />
       <div>
         <div className={styles.top}>
-        <Image src={src} alt={`ff`} height={200} width={200} />
-        <h2>{title}</h2>
+          <div className={styles.imgContainer}>
+            <Image
+              src={ImageSrc}
+              height={400}
+              width={600}
+              alt={`Image of home page`}
+              className={styles.img}
+            />
+          </div>
+          <h2>{title}</h2>
         </div>
-        
 
         <div className={styles.content}>
-            
-            <div className={styles.subSection}>
-              <h3>{`What is ${title}?`}</h3>
-              <p>{description}</p>
+          {sections.map((section) => (
+            <div key={`${section.title}`} className={styles.subSection}>
+              <h3>{section.title}</h3>
+              {section.content.map((p) => (
+                <p key={p}>{p}</p>
+              ))}
+              {section.images&& section.images.map((image) => (
+                <Image
+                  src={image}
+                  height={400}
+                  width={600}
+                  alt={`Image of home page`}
+                  className={styles.img}
+                  key={image}
+                />
+              ))}
             </div>
-         {sections.map((section)=>(
-          <div key={`${section.title}`} className={styles.subSection}>
-            <h3>{section.title}</h3>
-            <p>{section.content}</p>
-          </div>
-         ))}
-
-          </div>
+          ))}
         </div>
       </div>
+    </div>
   );
 };
 

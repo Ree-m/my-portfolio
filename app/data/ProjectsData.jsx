@@ -1,76 +1,193 @@
+
+
+
+
 const projectsData = [
-    {
-      id: 1,
-      title: "Manga Verse",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ",
-      ImageSrc:`/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`,
-      sections: [
-        {
-          title: "Introduction",
-          content: "",
-        }, 
-        {
-          title: "Technologies used",
-          content: " "
+  {
+    id: 1,
+    title: "Manga Verse",
+    description:"Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
+    ImageSrc: `/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`,
+    sections: [
+      {
+        title: "Introduction",
+        content: [
+          "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse."
+        ],
+      },
+      {
+        title: "Technologies used",
+        content: [">Next.js", ">Express.js","Node.js",">MongoDB", ">Puppeteer",">Jikan API",">Render"],
+      },
+      {
+        title: "Key features",
+        content: [
+          "1. Manga Reading: The app offers an immersive manga reading experience where users can seamlessly access and enjoy manga chapters. Dive into captivating storylines and stunning artwork as you effortlessly binge through your favorite manga series.",
 
-          ,
-        },
-        {
-          title: "Key features",
-          content: ""
+          "2. User Authentication: The app incorporates NextAuth to facilitate user authentication. This allows users to create accounts, log in, and securely access personalized feautures.",
 
-          ,
-        },
-        {
-          title: "Implentation details",
-          content: ""
+          "3. Manga Filtering: Users have the ability to filter manga based on various variables such as status (completed/ongoing), popularity, or genres.",
 
-          ,
-        },
-        {
-          title: "Purpose and goals",
-          content: ""
+          "4. Bookmarking Manga: Registered users can bookmark manga they enjoy, providing a convenient way to save and access their favorite titles. This feature enhances the user experience by allowing users to easily track and revisit their preferred manga.",
 
-          ,
-        },
-        {
-          title: "Lessons learned",
-          content: ""
+          "5. Manga Details Page: This page provides comprehensive information about a specific manga, including its title, author, genres, manga cover, and a list of chapters. Registered users can also bookmark manga directly from this page.",
 
-          ,
-        },
-        {
-          title: "Things I would have differently",
-          content: ""
+          '6. Chapter Page: Clicking on a chapter in the manga details page displays the chapter\'s images. Users can easily navigate between chapters using "next chapter" and "previous chapter" buttons, or by selecting a specific chapter from the dropdown menu.',
+          "7. Manga Search: The app provides a search bar in the header, allowing users to search for specific manga. This feature enables quick and convenient discovery of desired manga.",
+          "8. Top Week Carousel: The app features a carousel highlighting the weeklt top manga titles. Users can easily explore and discover trending manga titles in a visually appealing manner.",
+        
+          "These key features prioritize the manga reading aspect of the app, ensuring users can enjoy a user-friendly and personalized experience while exploring, filtering, bookmarking, and reading manga chapters effortlessly.",
+        ],
+      },
+      {
+        title: "Implentation details",
+        content: [
+          'Manga verse incorprates a microservice architecture with Kian Api and pupperteer. The first part uses Jiakn API to retrieve data. From Jikan API, data like title,author,summary,manga cover, for all manga is retrieved.Using the title retrieved from Jikan Api, the second part of the app "the scraper" runs. The scarper takes the title of the manga and using puppeteer scrapes a specific app and finds and returns a manga with a matching title. The data that is returend from the scarper is only the manga chapter list and the images of each chapter.',
+        ],
+      },
+      {
+        title: "Lessons learned",
+        content: [
+          "Throughout the course of this project, my primary goal was to learn Next.js. As I dived into the development process, I gained insights and experience using Next.js' dynamic routing, server-side rendering, and API integration features. This allowed me to create a more dynamic and performant application.",
 
-          ,
-        },
-        {
-          title: "Future Improvement",
-          content: ""
+          "One important lesson I learned was the advantage of always utilizing server-side components unless client-side rendering was absolutely necessary, such as for onClick events or other interactive features. Server-side components, with their suspense boundaries, are more efficient and overall more user-friendly.Additionally, in server side components, loading state is eaiser to handle. Sadly, I realsized this towards the end of the project, so most of my components are yet to be as server side components.",
 
-          ,
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Skinology",
-      description: "Description of Project 2",
-      ImageSrc:`/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
-      sections: [
-        // Sections for Project 2
-      ],
-    },
-    {
-      id: 3,
-      title: "Book Finder",
-      description: "Description of Project 3",
-      ImageSrc:`/Assests/Screenshot 2023-07-07 161058.png`,
-      sections: [
-        // Sections for Project 3
-      ],
-    },
-  ];
-  
-  export default projectsData;
+          "One of the highlights of this project for me was the manga chapter page, where users can read any chapter of a specific manga. To achieve this functionality, I explored and learned Puppeteer, a tool that surprised me with its beginner-friendly nature.Using Puppeteer allowed me to efficiently scrape and display manga chapters, enriching the user experience and providing the main feature to the app.",
+
+          "Overall, this project provided me with hands-on experience in Next.js, deepening my understanding of its features and benefits. I also gained insights into the importance of server-side components and the potential of tools like Puppeteer to enhance the functionality of web applications.",
+        ],
+      },
+      {
+        title: "Future Improvement",
+        content: [
+          "Based on the lessons learned from this project, there are some improvements I would like to make.",
+
+          " 1. Convert most components to server-side components.By migrating a majority of the components to server-side rendering, I can take advantage of suspense boundaries to enhance the overall performance of the application. Additionally, server-side components provide automatic caching, which further improves performance by reducing unnecessary data fetching.",
+
+          " 2. Enhance dynamic filtering.  Currently, the filtering functionality allows users to filter by only one variable at a time, such as genre, popularity, or status. To enhance the user experience, I plan to implement a more dynamic filtering system that enables users to apply multiple filters simultaneously.",
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Skinology",
+    description: "Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels.",
+    ImageSrc: `/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
+    sections: [
+      {
+        title:"Introduction",
+        content:["Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels."]
+      },
+      {
+        title:"Technologies used",
+        content:["> Express.js","> React.js","> Node.js","> MongoDB","> Render"]
+      },
+      {
+        title:"Implementation details",
+        content:["The app follows a mvc architecture. The view being the client folder, the models and the controllers in the api folder. The modeland controllers ecah have auth,cart and produect. The auth controller and model use JWT,cookies and bcrypt to proevide user auth. The product controller and model have functions for fetching products for users and for adding ,editing,deleting for admins. The cart have functions for addig to cart, delteing from,updating quantity.", 
+
+          "In the implementation of the app, a Model-View-Controller (MVC) architecture was adopted to ensure a clear separation of concerns and maintain code organization. The \"view\" component is represented by the client folder, while the \"models\" and \"controllers\" are in the api folder. Within the api folder, you'll find separate models and controllers for authentication, cart management, and product handling.",
+          
+          "The authentication model and controller employ tools such as JWT (JSON Web Tokens), cookies, and bcrypt to ensure secure user authentication.",
+          
+          "The product model and controller contain functions for both users and administrators. Users can retrieve product information, while administrators enjoy additional features such as adding, editing, and deleting products.",
+          
+          "By implementing the MVC architecture and dividing the app into distinct models and controllers, the project benefits from a well-organized and scalable codebase. This structured approach ensures efficient data flow and enhances the overall maintainability of the application.",
+          ]
+      },
+      {
+        title:"Key features",
+        content:[
+          "1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables adminstrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory.",
+          
+          "2. User Authentication: User authentication is implemented using JSON Web Tokens (JWT) and cookies. User passwords are securely encrypted using bcrypt and stored in the MongoDB database, ensuring the protection of user credentials.",
+          
+          "3. Cart Functionality: Registered users can add products to their cart, delete items, and update quantities as needed. The total price of all products int the cart is shown at the bottom of the cart page.",
+          
+          "4. Guest Cart: Non-registered users can also utilize a guest cart. This functionality is built using local storage, allowing guests to add items to their cart without requiring access to the app's database.",
+          
+          "5. Products Page: Clicking on a specific product leads to the product page, where detailed information such as the product name, brand, price, ingredient list, and usage instructions are provided. Users can also add the product to their cart directly from this page.",
+          
+          "6. Product Search: Users can easily search for products using the search bar located in the app's header. The search functionality allows users to search by brand name or product name, providing quick access to desired products.",
+          
+          "7. Main Carousel: The app's homepage features a visually appealing carousel displaying skincare posters. This carousel enhances the aesthetic appeal of the app's design.",
+          
+          "8. Best Products Carousel: The homepage also includes a carousel showcasing the best products. Right now, the carousel displays the oldest added products. However, in the future I plan to implement a view system to highlight the most popular products. A \"View All Products\" button leads to a dedicated page where all the best products are displayed.",
+          
+          "9. New Products: The homepage highlights 12 of the newest products in a grid layout. Clicking on the \"View All Products\" button directs users to a dedicated page showcasing all recently added products.",
+          
+          "These key features offer an engaging and user-friendly experience, providing admin control, secure authentication, seamless cart functionality, detailed product pages, search capabilities, and visually appealing carousels to showcase the best and newest products.",
+          ],
+        // content:["1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables adminstrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory."],
+        // images:["/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"],
+        // content:["2. User Authentication: User authentication is implemented using JSON Web Tokens (JWT) and cookies. User passwords are securely encrypted using bcrypt and stored in the MongoDB database, ensuring the protection of user credentials."],
+        // images:["/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg"]
+      },
+      {
+        title:"Lessons learned",
+        content:["This project was the one with the biggest learning curve for me. I entered with only a basic understanding of CRUD operations and being an absolute beginner in React. However, by the end, I had become much more comfortable with the fundamental concepts of React and CRUD.",
+
+          "Notably, this project marked my first experience working on a full-stack project independently from scratch. The hands-on nature of this proved to be a tremendous learning opportunity, it definelty highlighted the importance of practical application in deepening my understanding and skills.",
+          
+          "One crucial lesson that emerged was the significance of state management. While I primarily lifted state up in this project, there was a realization of the need for more advanced state management solutions like context or Redux. This motivated me to explore and learn how to effectively use the Context API, unlocking more efficient and scalable state management techniques.",
+          
+          "Additionally, I discovered the convenience of utilizing custom CSS properties for colors and fonts. By using custom CSS variables, I eliminated the repetition of typing hex values and font sizes repeatedly, resulting in more streamlined and maintainable styling practices.",
+          
+          "Additionally by working on this project, I gained experience and confidence in implementing CRUD (Create, Read, Update, Delete) operations and full-stack development. This hands-on experience provided me with a deep understanding of the intricate components and their proper placement within the architecture.", 
+          
+          "This project has been instrumental in my growth as a developer. It expanded my knowledge of Express,React, state management, styling techniques, and overall full-stack development." 
+          ]
+      },
+      {
+        title:"Future Improvement",
+        content:[
+          "1. Add a Pop-up Notification: Enhance the app by displaying a pop-up notification when an item is added to the cart. This notification will provide a clear message and include options to view the cart or continue shopping, improving the user experience.",
+          
+          "2. Implement Loading States: Improve the app's interface by adding loading states for actions such as data fetching or processing. These loading states will keep users informed about ongoing processes and provide a smoother user experience.",
+          
+          "3. Introduce Category and Brand Filtering: Expand the filtering options by allowing users to filter products based on categories and brands. This enhancement will help users find specific products that match their preferences more effectively.",
+          
+          "4. User Profile: Enhance the user profile feature in the app by expanding it to include more details about the user. This includes information such as name, email, profile picture.Additionally, enable users t delete their own accounts within the app.",
+          
+          "5. Paginaton: Add pagination to the bets products page and new proeducts page to increase performance.",
+          
+          ]
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Book Finder",
+    description: "",
+    ImageSrc: `/Assests/Screenshot 2023-07-07 161058.png`,
+    sections: [
+      {
+        title:"Introduction",
+        content:["The app uses React and google books API."]
+      },
+      {
+        title:"Technologies used",
+        content:["The app uses React and google books API."]
+      },
+      {
+        title:"Implementation details",
+        content:["The app uses React and google books API."]
+      },
+      {
+        title:"Key features",
+        content:["The app uses React and google books API."]
+      },
+      {
+        title:"Lessons learned",
+        content:["The app uses React and google books API."]
+      },
+      {
+        title:"Future Improvement",
+        content:["The app uses React and google books API."]
+      },
+    ],
+  },
+];
+
+export default projectsData;
