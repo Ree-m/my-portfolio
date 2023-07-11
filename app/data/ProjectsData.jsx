@@ -160,7 +160,7 @@ const projectsData = [
     id: 3,
     title: "Book Finder",
     description: "",
-    ImageSrc: `/Assests/Screenshot 2023-07-07 161058.png`,
+    ImageSrc: `/Assests/book-finder-lfxo-onrender-com-1024x768desktop-c0dfa8.jpg`,
     sections: [
       {
         title:"Introduction",
