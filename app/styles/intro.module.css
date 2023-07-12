@@ -66,6 +66,8 @@
   background: rgba(255, 255, 255, 0.972);
   border-radius: 50%;
   transition: 0.5s;
+  cursor: pointer;
+
 }
 
 .icons i::before {

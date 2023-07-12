@@ -58,7 +58,6 @@
 import styles from "../../styles/projectDetails.module.css";
 import Stars from "../Stars";
 import Image from "next/image";
-// import src from "./Assests/Screenshot 2023-06-23 231657.png";
 const ProjectDetails = ({ projectData }) => {
   const { title, description, ImageSrc, sections } = projectData;
   return (
@@ -88,7 +87,7 @@ const ProjectDetails = ({ projectData }) => {
                   {section.title === "Key features"?
                     section.images &&
                     section.images[index] && (
-                      <div className={styles.imgContainer}>
+                      <div className={`${styles.imgContainer} ${styles.imgSpacing}`}>
                         <Image
                           src={section.images[index]}
                           height={400}

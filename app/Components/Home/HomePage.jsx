@@ -1,10 +1,11 @@
 import TypeEffect from "./TypeEffect";
 import Stars from "../Stars";
 import Intro from "./Intro";
-import Image from "public/Assests/undraw_dev_focus_re_6iwt.svg";
+import Image from "next/image";
+import ImageSrc from "public/Assests/undraw_dev_focus_re_6iwt.svg";
 import styles from "../../styles/homePage.module.css";
 
-import { ImageComponent } from "../ImageComponent";
+// import { ImageComponent } from "../ImageComponent";
 const HomePage = () => {
   return (
     <div className={styles.homePage}>
@@ -12,7 +13,8 @@ const HomePage = () => {
 
       <div>
         <div className={styles.hero}>
-          <div>
+
+          <div className={styles.heroPart1}>
             <h1>
               Hi There! <span className={styles.wave}>👋🏻</span>
             </h1>
@@ -23,13 +25,14 @@ const HomePage = () => {
             </h1>
             <TypeEffect />
           </div>
-          <div className={styles.heroImg}>
-            <ImageComponent
-              src={Image}
-              layout="responsive"
-              width={400}
+
+          <div className={`${styles.heroImg} ${styles.imgContainer}`}>
+            <Image
+              src={ImageSrc}
               height={400}
-              alt={"Main home page image"}
+              width={400}
+              alt={`Image of hero`}
+              className={styles.img}
             />
           </div>
         </div>

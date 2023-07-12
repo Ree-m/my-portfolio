@@ -11,25 +11,20 @@ const AboutMe = () => {
           </h2>
 
           <p>
-            Hi Everyone, I am Soumyajit Behera from Bhubaneswar, India. I am a
-            final year student pursuing an Integrated MSc in Maths and Computing
-            at BIT Mesra. Additionally, I am currently employed as a software
-            developer at Juspay.
-          </p>
+          I am skilled in JavaScript, MongoDB, Node.js, and JavaScript libraries and frameworks like React, Next, and Express.
+</p>
 
           <p> 
-            Apart from coding, some other activities that I love to do!
-            <br />
-            Playing Games
-            <br />
-            Writing Tech Blogs
-            <br />
-            Travelling
-            <br /> 
+            When not coding, my favorite things to do are
           </p>
+          <ul>
+            <li>Learning languages, currently I am doing an A1 mandarin course!</li>
+            <li>Reading comics, I am an absoulte manga fan.</li>
+            <li></li>
+          </ul>
 
           <p className={styles.quote}>
-            `Strive to build things that make a difference!` <br/>-by Reem{" "}
+            `Believe you can and you`&apos;`re halfway there.` <br/>-by Theodore Roosevelt
           </p>
         </div>
 
