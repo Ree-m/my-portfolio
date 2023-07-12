@@ -29,7 +29,7 @@ const Intro = () => {
           </p>
     
           <p>
-            In addition to that, the libraries and frameworks I use include <b className={styles.purple}>React.js, Next.js,Node.js and Node.js .</b>             
+            In addition to that, the libraries and frameworks I use include <b className={styles.purple}>React.js, Next.js, Node.js and Express.js .</b>             
           </p>
 
           <p>I prefer back-end over front-end, until I am two days deep into solving a new to me express error and then somehow React is the best thing ever 😆</p>
