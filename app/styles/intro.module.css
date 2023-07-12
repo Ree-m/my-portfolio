@@ -95,6 +95,24 @@
   text-shadow: 0 0 2px #87209e;
 }
 
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  flex-shrink: 0;
+}
+
+.img{  
+  object-fit: cover; 
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+
+}
+
 @media screen and (max-width: 767px) {
   .intro {
     margin: 0px;
