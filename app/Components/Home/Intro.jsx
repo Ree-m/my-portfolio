@@ -25,14 +25,14 @@ const Intro = () => {
           </p>
           <p>
             The languages I use are 
-            <b className={styles.purple}> Javascript, Typescript, HTML, CSS. </b>
+            <b className={styles.purple}> Javascript, Typescript, HTML and CSS. </b>
           </p>
     
           <p>
-            In addition to that, the libraries and framworks include <b className={styles.purple}>React.js, Next.js,Node.js and Node.js .</b>             
+            In addition to that, the libraries and frameworks I use include <b className={styles.purple}>React.js, Next.js,Node.js and Node.js .</b>             
           </p>
 
-          <p>I prefer back-end over front-end, until I run into a new-to-me error and then somehow React is the best ever 😆</p>
+          <p>I prefer back-end over front-end, until I am two days deep into solving a new to me express error and then somehow React is the best thing ever 😆</p>
         </div>
 
         <ImageComponent
