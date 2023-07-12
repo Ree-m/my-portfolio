@@ -143,6 +143,7 @@ border: none;
     width: 100%;
     padding: 20px 30px;
     z-index: 999; 
+    cursor: pointer;
   }
 
   .navLinks {

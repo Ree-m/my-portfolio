@@ -25,7 +25,7 @@ const Intro = () => {
           </p>
           <p>
             The languages I use are 
-            <b className={styles.purple}> Javascript, Typescript, HTML and CSS. </b>
+            <b className={styles.purple}> Javascript, HTML and CSS. </b>
           </p>
     
           <p>
