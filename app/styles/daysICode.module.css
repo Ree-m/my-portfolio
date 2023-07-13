@@ -6,22 +6,24 @@
     text-align: center;
     font-weight: 400;
 }
+
+.container{
+    margin-bottom: 50px;
+    color: white;
+}
+
  
 .purple{
-    color:var(--purple-main);
+    color:var(--purple-main) !important;
     font-weight: 400;
 
 }
-.container{
-    margin-bottom: 50px;
-}
-
 .github{
-    color:var(--text-white)
+    color:white;
 }
 
 @media(max-width:767px){
     .container h2{
-        font-size: 2.2srem;
+        font-size: 2.2rem;
     }
 }
