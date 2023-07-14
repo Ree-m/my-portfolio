@@ -57,7 +57,7 @@ const Intro = () => {
         </div>
 
         <div>
-          <i onClick={()=>openInNewTab("https://www.linkedin.com/in/reem-bsrat-52a979264/")}>
+          <i onClick={()=>openInNewTab("https://www.linkedin.com/in/reembsrat/")}>
             <GrLinkedinOption />
           </i>
         </div>
