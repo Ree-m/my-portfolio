@@ -1,7 +1,4 @@
 "use client";
-import Image from "next/image";
-// import ImageSrc from "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"
-import Link from "next/link";
 import styles from "../../styles/project.module.css";
 import {useRouter} from "next/navigation";
 import { AiFillGithub } from "react-icons/ai";
@@ -14,8 +11,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
     window.open(url, "_blank", "noreferrer");
   };
   return (
-    // <Link href={`/project/${id}`} className={styles.projectLink} >
-    <div className={styles.project} onClick={()=> router(`/project/${id}`)} >
+    <div className={styles.project} onClick={()=> router.push(`/project/${id}`)} >
         {/* <Image
             src={ImageSrc}
             height={400}
