@@ -1,6 +1,6 @@
 import { ImageComponent } from "../ImageComponent";
 import Image from "next/image";
-import ImageSrc from "public/Assests/undraw_software_engineer_re_tnjc.svg";
+// import ImageSrc from "public/Assests/undraw_software_engineer_re_tnjc.svg";
 import styles from "../../styles/aboutMe.module.css";
 const AboutMe = () => {
   return (
@@ -30,13 +30,13 @@ const AboutMe = () => {
           </p>
         </div>
         <div className={`${styles.heroImg} ${styles.imgContainer}`}>
-            <Image
+            {/* <Image
               src={ImageSrc}
               height={400}
               width={400}
               alt={`Image of hero`}
               className={styles.img}
-            />
+            /> */}
           </div>
       </div>
     </div>

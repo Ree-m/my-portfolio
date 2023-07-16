@@ -2,7 +2,7 @@ import TypeEffect from "./TypeEffect";
 import Stars from "../Stars";
 import Intro from "./Intro";
 import Image from "next/image";
-import ImageSrc from "public/Assests/undraw_programmer_re_owql.svg";
+import ImageSrc from "public/Assests/undraw_software_engineer_re_tnjc.svg";
 import styles from "../../styles/homePage.module.css";
 
 // import { ImageComponent } from "../ImageComponent";
