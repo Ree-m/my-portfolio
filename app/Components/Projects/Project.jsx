@@ -14,8 +14,8 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
     window.open(url, "_blank", "noreferrer");
   };
   return (
-    <Link href={`/project/${id}`} className={styles.projectLink} >
-    <div className={styles.project}  >
+    // <Link href={`/project/${id}`} className={styles.projectLink} >
+    <div className={styles.project} onClick={()=> router(`/project/${id}`)} >
         {/* <Image
             src={ImageSrc}
             height={400}
@@ -53,7 +53,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
         </div>
       </div>
     </div>
-   </Link>
+  //  </Link>
   );
 };
 
