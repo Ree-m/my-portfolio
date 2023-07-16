@@ -2,6 +2,8 @@ const projectsData = [
   {
     id: 1,
     title: "Manga Verse",
+    githubLink:"https://github.com/Ree-m/manga-verse",
+    demoLink:"https://manga-verse.onrender.com/",
     description:
       "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
     ImageSrc: `/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`,
@@ -87,6 +89,8 @@ const projectsData = [
   {
     id: 2,
     title: "Skinology",
+    githubLink:"https://github.com/Ree-m/skinology-ecommerce-app",
+    demoLink:"https://skinology-ecommerce-app-client.onrender.com/",
     description:
       "Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels.",
     ImageSrc: `/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
@@ -191,6 +195,8 @@ const projectsData = [
   {
     id: 3,
     title: "Book Finder",
+    githubLink: "https://github.com/Ree-m/BookFinder",
+    demoLink:"https://book-finder-lfxo.onrender.com/",
     description: "",
     ImageSrc: `/Assests/book-finder-lfxo-onrender-com-1024x768desktop-c0dfa8.jpg`,
     sections: [

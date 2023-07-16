@@ -5,7 +5,7 @@ import Image from "next/image";
 import ProjectBtns from "./ProjectBtns";
 
 const ProjectDetails = ({ projectData }) => {
-  const { title, description, ImageSrc, sections } = projectData;
+  const { title, githubLink,demoLink, ImageSrc, sections } = projectData;
  
 
   
@@ -30,7 +30,7 @@ const ProjectDetails = ({ projectData }) => {
           </div>
           <h2>{title}</h2>
           <div className={styles.btns}>
-<ProjectBtns githubLink={githubLink} demoLink={demoLinks}/>
+              <ProjectBtns githubLink={githubLink} demoLink={demoLink}/>
           </div>
         </div>
 
