@@ -3,8 +3,7 @@ import Image from "next/image";
 // import ImageSrc from "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg"
 import Link from "next/link";
 import styles from "../../styles/project.module.css";
-import { useRouter } from "next/router";
-
+import {useRouter} from "next/navigation";
 import { AiFillGithub } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 import { BiDetail } from "react-icons/bi";
