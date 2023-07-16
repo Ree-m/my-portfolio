@@ -12,6 +12,15 @@
         padding-bottom: 20px;
     
     }
+    .projectDetails ul{
+      list-style-position: inside;
+
+    }
+    .projectDetails li{
+      font-size: 1.2rem;
+      line-height: 27px;
+
+    }
     
     .top{
         display: flex;
