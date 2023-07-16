@@ -2,8 +2,17 @@
 import styles from "../../styles/projectDetails.module.css";
 import Stars from "../Stars";
 import Image from "next/image";
+import Link from "next/link";
+import { AiFillGithub } from "react-icons/ai";
+import { CgWebsite } from "react-icons/cg";
+
 const ProjectDetails = ({ projectData }) => {
   const { title, description, ImageSrc, sections } = projectData;
+  const openInNewTab = (url) => {
+    window.open(url, "_blank", "noreferrer");
+  };
+
+  
   return (
     <div className={styles.projectDetails}>
       <Stars />
@@ -24,6 +33,21 @@ const ProjectDetails = ({ projectData }) => {
             />
           </div>
           <h2>{title}</h2>
+          <div className={styles.btns}>
+          <Link href={``}>
+            <button onClick={() => openInNewTab(githubLink)}>
+              <AiFillGithub />
+              Github
+            </button>
+          </Link>
+
+          <Link href={``}>
+            <button onClick={() => openInNewTab(demoLink)}>
+              <CgWebsite />
+              Demo
+            </button>
+          </Link>
+          </div>
         </div>
 
         <div className={styles.content}>
