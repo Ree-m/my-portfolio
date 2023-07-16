@@ -1,6 +1,4 @@
-.projectLink a{
-  text-decoration: none;
-}
+
 .project {
   display: flex;
   align-items: center;
@@ -13,6 +11,7 @@
   padding: 20px;
   gap: 20px;
   cursor: pointer;
+  text-decoration: none;
 
 }
 .project p{
