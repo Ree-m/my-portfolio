@@ -145,3 +145,16 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width:1800px){
+  .intro p,.socials p{
+    font-size: 1.5rem;
+  }
+  .intro h1,.socials h2{
+    font-size: 5rem;
+  }
+
+  .icons i{
+    font-size: 1.5rem;
+  }
+}

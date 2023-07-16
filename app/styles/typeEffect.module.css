@@ -9,3 +9,10 @@
     font-size: 1.8rem;
   }
 }
+
+@media (min-width:1800px){
+  .typeEffect{
+    font-size: 5rem;
+    padding-top: 50px;
+  }
+}

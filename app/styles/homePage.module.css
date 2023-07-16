@@ -48,9 +48,7 @@
   height:300px;
 }
 
-.heroPart1{
-  /* background-color: aqua !important; */
-}
+
 
 .hero h1 {
   font-size: 3rem;
@@ -77,18 +75,7 @@
   max-width: 100%;
 
 }
-/* 
-.hero img{
-  width: 100%;
-  height: auto;
-  object-fit: cover; 
-} */
-/* 
-.heroImg {
- max-width: 100%;
-  height: auto;
-  position: relative;
-} */
+
 
 @media screen and (max-width: 767px) {
   .homePage {
@@ -122,11 +109,15 @@
 }
 
 
-@media(min-width:1800px) and (max-width:2000px){
+@media(min-width:1800px) {
 
   .hero{
-    margin-left:200px;
-    margin-right: 200px;
+    margin-left:340px;
+    margin-right: 340px;
+    height: 700px;
+  }
+  .hero h1{
+    font-size: 5rem;
   }
 
 }
