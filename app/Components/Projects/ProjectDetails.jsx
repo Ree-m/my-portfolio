@@ -1,5 +1,3 @@
-
-
 // import styles from "../../styles/projectDetails.module.css";
 // import Stars from "../Stars";
 // import Image from "next/image";
@@ -50,9 +48,6 @@
 
 // export default ProjectDetails;
 
-
-
-
 // "use client"
 // import React from "react";
 import styles from "../../styles/projectDetails.module.css";
@@ -66,10 +61,15 @@ const ProjectDetails = ({ projectData }) => {
       <div>
         <div className={styles.top}>
           <div className={styles.imgContainer}>
-            <Image
+            {/* <Image
               src={ImageSrc}
               height={400}
               width={600}
+              alt={`Image of home page`}
+              className={styles.img}
+            /> */}
+            <img
+              src={ImageSrc}
               alt={`Image of home page`}
               className={styles.img}
             />
@@ -84,19 +84,28 @@ const ProjectDetails = ({ projectData }) => {
               {section.content.map((item, index) => (
                 <div key={index}>
                   <p>{item}</p>
-                  {section.title === "Key features"?
-                    section.images &&
-                    section.images[index] && (
-                      <div className={`${styles.imgContainer} ${styles.imgSpacing}`}>
-                        <Image
+                  {section.title === "Key features"
+                    ? section.images &&
+                      section.images[index] && (
+                        <div
+                          className={`${styles.imgContainer} ${styles.imgSpacing}`}
+                        >
+                          {/* <Image
                           src={section.images[index]}
                           height={400}
                           width={600}
-                          alt={`Image for key feature`}
+                          alt={`eImage for key featur`}
                           className={styles.img}
-                        />
-                      </div>
-                    ): null}
+                        /> */}
+
+                          <img
+                            src={section.images[index]}
+                            alt={`Image of the key feature`}
+                            className={styles.img}
+                          />
+                        </div>
+                      )
+                    : null}
                 </div>
               ))}
             </div>
@@ -107,11 +116,4 @@ const ProjectDetails = ({ projectData }) => {
   );
 };
 
-
-
-
-
-
-
 export default ProjectDetails;
-
