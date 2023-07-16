@@ -17,13 +17,13 @@ const projectsData = [
       {
         title: "Technologies used",
         content: [
-          ">Next.js",
-          ">Express.js",
+          "Next.js",
+          "Express.js",
           "Node.js",
-          ">MongoDB",
-          ">Puppeteer",
-          ">Jikan API",
-          ">Render",
+          "MongoDB",
+          "Puppeteer",
+          "Jikan API",
+          "Render",
         ],
       },
       {
@@ -104,11 +104,11 @@ const projectsData = [
       {
         title: "Technologies used",
         content: [
-          "> Express.js",
-          "> React.js",
-          "> Node.js",
-          "> MongoDB",
-          "> Render",
+          "Express.js",
+          "React.js",
+          "Node.js",
+          "MongoDB",
+          "Render",
         ],
       },
       {
@@ -208,7 +208,7 @@ const projectsData = [
       },
       {
         title: "Technologies used",
-        content: [">React", ">Google books API", ">Css", ">Vercel"],
+        content: ["React", "Google books API", "Css", "Vercel"],
       },
       {
         title: "Implementation details",
