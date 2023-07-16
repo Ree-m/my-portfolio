@@ -16,7 +16,7 @@ const HomePage = () => {
 
           <div className={styles.heroPart1}>
             <h1>
-              Hi There! <span className={styles.wave}>👋🏻</span>
+              Hi There! <span className={styles.wave}>👋🏽</span>
             </h1>
 
             <h1>
