@@ -148,13 +148,13 @@
 
 @media (min-width:1800px){
   .intro p,.socials p{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .intro h1,.socials h2{
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .icons i{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
