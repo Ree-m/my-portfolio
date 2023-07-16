@@ -12,7 +12,8 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
     window.open(url, "_blank", "noreferrer");
   };
   return (
-    <div className={styles.project}>
+    <Link href={`/project/${id}`}>
+    <div className={styles.project} >
       <div className={styles.imgContainer}>
         {/* <Image
             src={ImageSrc}
@@ -58,6 +59,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 
