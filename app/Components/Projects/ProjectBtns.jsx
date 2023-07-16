@@ -12,19 +12,15 @@ const ProjectBtns = ({githubLink,demoLink}) => {
 
   return (
     <div className={styles.btns}>
-        <Link href={``}>
             <button onClick={() => openInNewTab(githubLink)}>
               <AiFillGithub />
               Github
             </button>
-          </Link>
 
-          <Link href={``}>
             <button onClick={() => openInNewTab(demoLink)}>
               <CgWebsite />
               Demo
             </button>
-          </Link>
     </div>
   )
 }
