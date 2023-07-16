@@ -42,3 +42,14 @@
 
   }
 }
+
+@media (min-width:1800px){
+  .footerIcons{
+    font-size: 1.6rem;
+  }
+
+  .footer{
+    font-size: 1.6rem;
+    padding: 25px 0px;
+  }
+}
