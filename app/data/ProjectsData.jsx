@@ -195,7 +195,7 @@ const projectsData = [
   {
     id: 3,
     title: "Book Finder",
-    githubLink: "https://github.com/Ree-m/BookFinder",
+    githubLink: "https://github.com/Ree-m/book-finder",
     demoLink:"https://book-finder-lfxo.onrender.com/",
     description: "",
     ImageSrc: `/Assests/book-finder-lfxo-onrender-com-1024x768desktop-c0dfa8.jpg`,

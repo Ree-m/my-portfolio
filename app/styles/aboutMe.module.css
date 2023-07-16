@@ -6,6 +6,10 @@
     margin-top: 80px;
     margin-bottom: 50px;
 } 
+.aboutMe ul{
+    list-style-position: inside;
+
+  }
 .aboutMe h2 {
   font-size: 2.5rem;
   color: var(--text-white);

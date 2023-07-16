@@ -45,7 +45,7 @@ const Projects = () => {
           }
           ImageSrc={`/Assests/Screenshot 2023-07-07 161058.png`}
           id={3}
-          githubLink={"https://github.com/Ree-m/BookFinder"}
+          githubLink={"https://github.com/Ree-m/book-finder"}
           demoLink={"https://book-finder-lfxo.onrender.com/"}
         />
       </div>
