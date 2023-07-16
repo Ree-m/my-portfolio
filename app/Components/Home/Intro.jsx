@@ -4,7 +4,7 @@ import styles from "../../styles/intro.module.css";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BiLogoGmail } from "react-icons/bi";
-import Image from "public/Assests/avatar.png";
+import Image from "public/Assests/avatar-dark-purple.png";
 import { ImageComponent } from "../ImageComponent";
 import Tilt from "react-parallax-tilt";
 
