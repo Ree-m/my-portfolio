@@ -29,7 +29,7 @@ const ProjectDetails = ({ projectData }) => {
             />
           </div>
           <h2>{title}</h2>
-          <div className={styles.btns}>
+          <div>
               <ProjectBtns githubLink={githubLink} demoLink={demoLink}/>
           </div>
         </div>

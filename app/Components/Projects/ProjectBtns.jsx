@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { AiFillGithub } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
+import styles from "../styles/projectBtns.module.css"
 
 const ProjectBtns = ({githubLink,demoLink}) => {
     const openInNewTab = (url) => {
@@ -10,7 +11,7 @@ const ProjectBtns = ({githubLink,demoLink}) => {
 
 
   return (
-    <div>
+    <div className={styles.btns}>
         <Link href={``}>
             <button onClick={() => openInNewTab(githubLink)}>
               <AiFillGithub />

@@ -26,7 +26,7 @@ const AboutMe = () => {
           </ul>
 
           <p className={styles.quote}>
-            `Believe you can and you&apos;re already halfway there.` <br/>-by Theodore Roosevelt
+            `Believe you can and you&apos;re halfway there.` <br/>-by Theodore Roosevelt
           </p>
         </div>
         <div className={`${styles.heroImg} ${styles.imgContainer}`}>
