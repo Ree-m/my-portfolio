@@ -41,7 +41,7 @@ const Projects = () => {
         <Project
           name={"Book Finder"}
           description={
-            "Book Finder is a React frontend application that leverages the Google Books API.The key feature of this app is its search functionality, allowing users to search for books by title, author, or publishing date. When a book is selected, detailed information about the book is displayed. Moreover, Book Finder is designed to be fully responsive, ensuring a seamless experience across various devices."
+            "Book Finder is a React application that leverages the Google Books API.The key feature of this app is its search functionality, allowing users to search for books by title, author, or publishing date. When a book is selected, detailed information about the book is displayed. Moreover, Book Finder is designed to be fully responsive, ensuring a seamless experience across various devices."
           }
           ImageSrc={`/Assests/book-finder-lfxo-onrender-com-1024x768desktop-c0dfa8.jpg`}
           id={3}

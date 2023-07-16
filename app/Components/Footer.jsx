@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <span>Developed by Reem, Designed by Soumyajit Behera</span>
-      <span>Copyright © 2023 SB</span>
+      <span>Copyright © 2023 Reem</span>
       <div className={styles.footerIcons}>
         <div>
           <i onClick={() => openInNewTab("https://github.com/Ree-m")}>
