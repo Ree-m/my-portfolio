@@ -3,13 +3,12 @@ import Link from "next/link";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineMenu,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {AiOutlineClose} from "react-icons/ai";
-import {BiSolidContact} from "react-icons/bi"
+import {GrContact} from "react-icons/gr"
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -44,7 +43,7 @@ const Header = () => {
         </Link>
 
         <Link href={`/contact`}>
-          <BiSolidContact />
+          <GrContact />
           Contact
         </Link>
 
@@ -77,7 +76,7 @@ const Header = () => {
         </Link>
 
         <Link href={`/contact`}>
-          <AiOutlineFundProjectionScreen />
+          <GrContact />
           Contact
         </Link>
 

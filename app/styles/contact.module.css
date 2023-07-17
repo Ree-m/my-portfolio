@@ -1,0 +1,36 @@
+.contact {
+  padding: 0px 140px;
+  color: var(--text-white);
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+}
+
+.contact p{
+    font-size: 1.25rem;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 1023px) {
+  .contact {
+    padding: 0px 50px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .contact {
+    padding: 0px 250px;
+  }
+}
