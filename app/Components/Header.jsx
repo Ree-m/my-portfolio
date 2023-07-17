@@ -9,11 +9,12 @@ import { BsPerson } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {AiOutlineClose} from "react-icons/ai";
-
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import styles from "../styles/header.module.css";
 const Header = () => {
+  const router =useRouter()
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className={styles.header}>
@@ -58,20 +59,20 @@ const Header = () => {
         
       {toggleMenu ? (
         <div className={styles.menuItems}>
-         <Link href={`/`}>
+         <div onClick={()=>router.push(`/`)}>
           <AiOutlineHome />
           Home
-        </Link>
+        </div>
 
-        <Link href={`/about`}>
+        <div onClick={()=>router.push(`/about`)}>
           <BsPerson />
           About
-        </Link>
+        </div>
 
-        <Link href={`/projects`}>
+        <div onClick={()=>router.push(`/projects`)}>
           <AiOutlineFundProjectionScreen />
           Projects
-        </Link>
+        </div>
 {/* 
         <Link href={`/`}>
           <CgFileDocument />
