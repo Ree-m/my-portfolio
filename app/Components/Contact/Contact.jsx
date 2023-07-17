@@ -1,58 +1,30 @@
-"use client";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_b5ftckc', 'template_w54t4o3', form.current, 'ZwpoLoeZxXZ32H-EH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-    <div>
-      <h2>Contact.</h2>
-      <p>
-        Get in touch or shoot me an email directly on{" "}
-        <span onClick={() => (window.location = "mailto:reembsrat@gmail.com")}>
-          reembsrat@gmail.com
-        </span>
-      </p>
-
-      <Formik
-        initialValues={{
-          name: "",
-          email: "",
-          message: "",
-        }}
-        onSubmit={(values, actions) => {
-          alert(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }}
-
-        validate={values => {
-          const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
-          const errors = {};
-          if(!values.name) {
-            errors.name = 'Name Required'
-          }
-          if(!values.email || !emailRegex.test(values.email)) {
-            errors.email = 'Valid Email Required'
-          }
-          if(!values.message) {
-            errors.message = 'Message Required'
-          }
-          return errors;
-        }}
-      >
-        {() => (
-          <Form>
-            <Field type="text" name="name" placeholder="Name" />
-
-            <label htmlFor="email">Email: </label>
-            <Field name="email" />
-
-            <label htmlFor="message">Message: </label>
-            <Field name="message" component="textarea" />
-
-            <button type="submit">Send Message</button>
-          </Form>
-        )}
-      </Formik>
-    </div>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
   );
 };
 
