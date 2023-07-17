@@ -9,6 +9,7 @@ import { BsPerson } from "react-icons/bs";
 import { CgFileDocument } from "react-icons/cg";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {AiOutlineClose} from "react-icons/ai";
+import {BiSolidContact} from "react-icons/bi"
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -41,11 +42,12 @@ const Header = () => {
           <AiOutlineFundProjectionScreen />
           Projects
         </Link>
-{/* 
-        <Link href={`/`}>
-          <CgFileDocument />
-          Resume
-        </Link> */}
+
+        <Link href={`/contact`}>
+          <BiSolidContact />
+          Contact
+        </Link>
+
       </div>
 
       <div className={styles.menu}>
@@ -59,25 +61,26 @@ const Header = () => {
         
       {toggleMenu ? (
         <div className={styles.menuItems}>
-         <div onClick={()=>router.push(`/`)}>
+         <Link href={`/`}>
           <AiOutlineHome />
           Home
-        </div>
+        </Link>
 
-        <div onClick={()=>router.push(`/about`)}>
+        <Link href={`/about`}>
           <BsPerson />
           About
-        </div>
+        </Link>
 
-        <div onClick={()=>router.push(`/projects`)}>
+        <Link href={`/projects`}>
           <AiOutlineFundProjectionScreen />
           Projects
-        </div>
-{/* 
-        <Link href={`/`}>
-          <CgFileDocument />
-          Resume
-        </Link> */}
+        </Link>
+
+        <Link href={`/contact`}>
+          <AiOutlineFundProjectionScreen />
+          Contact
+        </Link>
+
         </div>
       ) : (
         ""

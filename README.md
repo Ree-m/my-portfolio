@@ -188,22 +188,6 @@ Project Link: [https://github.com/Ree-m/my-portfolio](https://my-portfolio-mauve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/Ree-m/skinology-ecommerce-app/blob/main/LICENSE.txt
+[license-url]: https://github.com/Ree-m/my-portfolio/blob/main/LICENSE.txt
 [app-screenshot]: public/Assests/readme/my-portfolio-homepage.jpg
-[node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
-[node-url]: https://nodejs.org/en
-[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/
-[mongodb]: https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white
-[mongodb-url]: https://www.mongodb.com/docs/atlas/
-[express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
-[express-url]: https://expressjs.com/
-[jwt]: https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink
 
