@@ -59,7 +59,7 @@
 
 ## About The Project
 
-[![Skinology Ecommerce App][product-screenshot]](https://skinology-ecommerce-app-client.onrender.com/)
+[![My Porfoltio App][app-screenshot]](https://my-portfolio-mauve-alpha.vercel.app/)
 My personal portfolio built with Next. It is fully responsive and fetaures my projects and skills. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -79,14 +79,13 @@ My personal portfolio built with Next. It is fully responsive and fetaures my pr
 
 ## Live Demo
 
-[Live Demo](https://skinology-ecommerce-app-client.onrender.com/)
+[Live Demo](https://my-portfolio-mauve-alpha.vercel.app/)
 
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -121,6 +120,24 @@ npm run dev
 
 
 ## Usage
+
+The hero section of the app.
+<img src="public/Assests/readme/my-portfolio-homepage.jpg" alt="Image of the hero section of the app" />
+
+The introduction part of the app.
+<img src="public/Assests/readme/portfolio-intro.jpg" alt="Image of the introduction section of the app" />
+
+The about page of the app.
+<img src="public/Assests/readme/portfolio-about-page.jpg" alt="Image of the about page of the app" />
+
+The projects page of the app.
+<img src="public/Assests/readme/portfolio-projects-page.jpg" alt="Image of the projects of the app" />
+
+The project details page.
+<img src="public/Assests/readme/portfolio-projects-details-page.jpg" alt="Image of the projects details of the app" />
+
+
+
 
 
 
@@ -157,7 +174,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Reem Bsrat - reembsrat@gmail.com
 
-Project Link: [https://github.com/Ree-m/skinology-ecommerce-app](https://github.com/Ree-m/skinology-ecommerce-app)
+Project Link: [https://github.com/Ree-m/my-portfolio](https://my-portfolio-mauve-alpha.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +196,7 @@ Project Link: [https://github.com/Ree-m/skinology-ecommerce-app](https://github.
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/Ree-m/skinology-ecommerce-app/blob/main/LICENSE.txt
-[product-screenshot]: client/src/assets/project-main-screenshot.png
+[app-screenshot]: public/Assests/readme/my-portfolio-homepage.jpg
 [node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
 [node-url]: https://nodejs.org/en
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
