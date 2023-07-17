@@ -96,7 +96,7 @@
     font-size: 1.3rem;
   }
 
-  .menuItems a {
+  .menuItems div {
     color: var(--text-white);
     padding: 10px 20px;
     text-decoration: none;
@@ -105,7 +105,7 @@
     gap: 5px;
   }
 
-  .menuItems a:hover{
+  .menuItems div:hover{
     color:var(--purple-main)
   }
 }
