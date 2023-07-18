@@ -1,8 +1,9 @@
 "use client";
-import React, { useRef, useState,useRouter } from "react";
+import React, { useRef, useState} from "react";
 import emailjs from "@emailjs/browser";
 import Stars from "../Stars";
 import styles from "../../styles/contact.module.css";
+import { useRouter } from "next/navigation";
 
 const Result = () => {
   const router = useRouter()
