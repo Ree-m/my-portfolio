@@ -12,8 +12,10 @@ import { useRouter } from "next/navigation";
 //       <p>Your message has been sent.</p>
 //       <p>Want to send another message? <span onClick={setS}}>Go here</span></p>
 //     </div>
+
 //   );
 // };
+
 const Contact = () => {
   const form = useRef();
   const [showResult, setShowResult] = useState(false);
@@ -43,8 +45,14 @@ const Contact = () => {
   return (
     <div className={styles.contact}>
       <Stars />
-      <div className={styles.contactConatiner}>
-        <div className={styles.text}>
+        {showResult?  <div className={styles.contactConatiner}>
+          <div className={styles.result}>
+          <p>Your message has been sent.Want to send another message? <span onClick={()=>setShowResult(false)}>Go here</span></p>
+          </div>
+          
+         </div> : 
+         <div className={styles.contactConatiner}>
+           <div className={styles.text}>
           <h2>Contact.</h2>
           <p>
             Get in touch or shoot me an email directly on{" "}
@@ -55,12 +63,7 @@ const Contact = () => {
             </span>
           </p>
         </div>
-        {showResult ? (
-           <div className={styles.result}>
-           <p>Your message has been sent.</p>
-           <p>Want to send another message? <span onClick={()=>setShowResult(false)}>Go here</span></p>
-         </div>
-        ) : (
+  
           <form ref={form} onSubmit={sendEmail} className={styles.form}>
             <input
               type="text"
@@ -85,10 +88,11 @@ const Contact = () => {
               />
             </div>
           </form>
-        )}
+         </div>
+       
+ }
 
       </div>
-    </div>
   );
 };
 
