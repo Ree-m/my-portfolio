@@ -8,7 +8,6 @@
 }
 
 .contact h2 {
-    padding-top: 100px;
   font-size: 2.5rem;
   font-weight: 400;
 }
@@ -36,7 +35,7 @@
 }
 .form .input {
   color: var(--text-white);
-  background-color: transparent !important;
+  background-color: #e8f0fe !important;
   border: 1px solid white;
   padding: 24px 21px;
   width: 70%;
@@ -51,7 +50,7 @@
   width: 70%;
   color: black;
   border: 1px solid white;
-  background-color: transparent;
+  background-color: #e8f0fe;
   padding: 24px 21px 60px 21px;
 }
 
@@ -79,6 +78,10 @@
 @media (max-width: 767px) {
   .contact {
     padding: 100px 50px 50px 50px;
+  }
+  .conatct h2{
+    padding-top: 100px;
+
   }
 
   .form .input {
