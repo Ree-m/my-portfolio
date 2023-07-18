@@ -35,7 +35,7 @@
 }
 .form .input {
   color: var(--text-white);
-  background-color: transparent;
+  background-color: none !important;
   border: 1px solid white;
   padding: 24px 21px;
   width: 70%;
@@ -51,7 +51,7 @@
 .btnContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .btn {
   padding: 15px 40px;
@@ -76,7 +76,7 @@
     width: 100%;
   }
   .btn {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (max-width: 1023px) {
