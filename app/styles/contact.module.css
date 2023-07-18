@@ -34,12 +34,12 @@
   width: 100%;
 }
 .form .input {
-  color: var(--text-white);
+  color: black;
   background-color: #e8f0fe !important;
   border: 1px solid white;
   padding: 24px 21px;
   width: 70%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
 }
 
@@ -78,6 +78,11 @@
   margin-bottom: 15px; 
 }
 
+.btn:hover{
+    background-color: #6d20c5d7;
+    border-color: #6d20c5d7;
+}
+
 @media (max-width: 767px) {
   .contact {
     padding: 100px 50px 50px 50px;
@@ -89,10 +94,14 @@
 
   .form .input {
     width: 100%;
+    color: black;
+
   }
 
   .form textarea {
     width: 100%;
+    color: black;
+
   }
   .btn {
     width: 100%;
