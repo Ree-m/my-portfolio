@@ -1,14 +1,8 @@
 "use client";
 import Link from "next/link";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-} from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
-import { CgFileDocument } from "react-icons/cg";
 import {GiHamburgerMenu} from "react-icons/gi";
-import {AiOutlineClose} from "react-icons/ai";
-import {GrContact} from "react-icons/gr"
+import {AiOutlineClose,AiOutlineMail,AiOutlineFundProjectionScreen, AiOutlineHome} from "react-icons/ai";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -43,7 +37,7 @@ const Header = () => {
         </Link>
 
         <Link href={`/contact`}>
-          <GrContact />
+          <AiOutlineMail />
           Contact
         </Link>
 
@@ -76,7 +70,7 @@ const Header = () => {
         </Link>
 
         <Link href={`/contact`}>
-          <GrContact />
+          <AiOutlineMail />
           Contact
         </Link>
 

@@ -13,7 +13,7 @@
 }
 
 .contact p{
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding-bottom: 35px;
 }
 
@@ -35,10 +35,30 @@
 }
 .form .input{
     color:var(--text-white);
-    background-color: transparent;
+    background-color: white;
     border: 1px solid black;
     padding: 24px 21px;
     width: 80%;
+}
+.form textarea{
+    width: 70%;
+    color:var(--text-white);
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 24px 21px 60px 21px;
+
+
+}
+
+.input:focus,.form textarea{
+    background-color: #623686; 
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .btn{
     padding:15px 40px;
@@ -47,7 +67,7 @@
     border: none;
     background-color:#623686 ;
     color:var(--text-white);
-    width:50%
+    width:30%
 }
 @media (max-width: 1023px) {
   .contact {

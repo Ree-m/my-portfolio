@@ -55,8 +55,11 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail} className={styles.form}>
           <input type="text" name="user_name" placeholder="Name" className={styles.input} />
           <input type="email" name="user_email" placeholder="Email" className={styles.input}/>
-          <textarea name="message" placeholder="Message" className={styles.input} />
+          <textarea name="message" placeholder="Message" />
+          <div className={styles.btnContainer}>
           <input type="submit" value="Send Message" className={styles.btn} />
+
+          </div>
         </form>
 
         <div>{showResult ? <Result /> : null}</div>
