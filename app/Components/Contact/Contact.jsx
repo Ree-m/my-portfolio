@@ -10,7 +10,7 @@ const Result = () => {
   return (
     <div className={styles.result}>
       <p>Your message has been sent.</p>
-      <p>Want to send another message? <span onClick={()=>router.push(`/contact`)}>Go here</span></p>
+      <p>Want to send another message? <span onClick={setS}}>Go here</span></p>
     </div>
   );
 };
@@ -56,7 +56,10 @@ const Contact = () => {
           </p>
         </div>
         {showResult ? (
-          <Result />
+           <div className={styles.result}>
+           <p>Your message has been sent.</p>
+           <p>Want to send another message? <span onClick={()=>setShowResult(false)}>Go here</span></p>
+         </div>
         ) : (
           <form ref={form} onSubmit={sendEmail} className={styles.form}>
             <input
