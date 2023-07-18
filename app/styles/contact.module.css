@@ -61,6 +61,7 @@
   background-color: #623686;
   color: var(--text-white);
   width: 20%;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 767px) {
