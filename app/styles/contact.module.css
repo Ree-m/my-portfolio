@@ -1,5 +1,5 @@
 .contact {
-  padding: 80px 140px 50px 140px;
+  padding: 100px 140px 50px 140px;
   color: var(--text-white);
 }
 .contact span {
@@ -55,7 +55,7 @@
   background-color: #e8f0fe;
   padding: 24px 21px 60px 21px;
   font-size: 1.2rem;
-  font-family: "Raleway";
+  font-family: inherit;
 }
 
 .form textarea:focus{

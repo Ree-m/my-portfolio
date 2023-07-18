@@ -53,9 +53,9 @@ const Contact = () => {
           </p>
         </div>
         <form ref={form} onSubmit={sendEmail} className={styles.form}>
-          <input type="text" name="user_name" placeholder="Name" className={styles.input} />
-          <input type="email" name="user_email" placeholder="Email" className={styles.input}/>
-          <textarea name="message" placeholder="Message" />
+          <input type="text" name="user_name" placeholder="Name" className={styles.input} required />
+          <input type="email" name="user_email" placeholder="Email" className={styles.input} required/>
+          <textarea name="message" placeholder="Message" required />
           <div className={styles.btnContainer}>
           <input type="submit" value="Send Message" className={styles.btn} />
 
