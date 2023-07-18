@@ -44,7 +44,7 @@ const Contact = () => {
         <div className={styles.text}>
           <h2>Contact.</h2>
           <p>
-            Get in touch or shoot me an email directly on
+            Get in touch or shoot me an email directly on{" "}
             <span
               onClick={() => (window.location = "mailto:reembsrat@gmail.com")}
             >
@@ -56,7 +56,7 @@ const Contact = () => {
           <input type="text" name="user_name" placeholder="Name" className={styles.input} />
           <input type="email" name="user_email" placeholder="Email" className={styles.input}/>
           <textarea name="message" placeholder="Message" className={styles.input} />
-          <input type="submit" value="Send Message" cllassName={styles.btn} />
+          <input type="submit" value="Send Message" className={styles.btn} />
         </form>
 
         <div>{showResult ? <Result /> : null}</div>
