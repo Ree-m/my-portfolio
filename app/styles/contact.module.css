@@ -39,6 +39,8 @@
   border: 1px solid white;
   padding: 24px 21px;
   width: 70%;
+  font-size: 1.2rem;
+
 }
 
 .form .input:focus{
@@ -52,6 +54,7 @@
   border: 1px solid white;
   background-color: #e8f0fe;
   padding: 24px 21px 60px 21px;
+  font-size: 1.2rem;
 }
 
 .form textarea:focus{
