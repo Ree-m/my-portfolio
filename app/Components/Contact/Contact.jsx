@@ -5,15 +5,15 @@ import Stars from "../Stars";
 import styles from "../../styles/contact.module.css";
 import { useRouter } from "next/navigation";
 
-const Result = () => {
-  const router = useRouter()
-  return (
-    <div className={styles.result}>
-      <p>Your message has been sent.</p>
-      <p>Want to send another message? <span onClick={setS}}>Go here</span></p>
-    </div>
-  );
-};
+// const Result = () => {
+//   const router = useRouter()
+//   return (
+//     <div className={styles.result}>
+//       <p>Your message has been sent.</p>
+//       <p>Want to send another message? <span onClick={setS}}>Go here</span></p>
+//     </div>
+//   );
+// };
 const Contact = () => {
   const form = useRef();
   const [showResult, setShowResult] = useState(false);
