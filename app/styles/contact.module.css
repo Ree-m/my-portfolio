@@ -85,6 +85,12 @@
     border-color: #6d20c5d7;
 }
 
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 767px) {
   .contact {
     padding: 100px 50px 50px 50px;

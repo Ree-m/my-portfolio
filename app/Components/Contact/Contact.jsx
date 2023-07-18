@@ -1,13 +1,15 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState,useRouter } from "react";
 import emailjs from "@emailjs/browser";
 import Stars from "../Stars";
 import styles from "../../styles/contact.module.css";
 
 const Result = () => {
+  const router = useRouter()
   return (
-    <div>
-      <p>Your message has been sent. I will reply soon.</p>
+    <div className={styles.result}>
+      <p>Your message has been sent.</p>
+      <p>Want to send another message? <span onClick={()=>router.push(`/contact`)}>Go here</span></p>
     </div>
   );
 };
@@ -52,17 +54,35 @@ const Contact = () => {
             </span>
           </p>
         </div>
-        <form ref={form} onSubmit={sendEmail} className={styles.form}>
-          <input type="text" name="user_name" placeholder="Name" className={styles.input} required />
-          <input type="email" name="user_email" placeholder="Email" className={styles.input} required/>
-          <textarea name="message" placeholder="Message" required />
-          <div className={styles.btnContainer}>
-          <input type="submit" value="Send Message" className={styles.btn} />
+        {showResult ? (
+          <Result />
+        ) : (
+          <form ref={form} onSubmit={sendEmail} className={styles.form}>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              className={styles.input}
+              required
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              className={styles.input}
+              required
+            />
+            <textarea name="message" placeholder="Message" required />
+            <div className={styles.btnContainer}>
+              <input
+                type="submit"
+                value="Send Message"
+                className={styles.btn}
+              />
+            </div>
+          </form>
+        )}
 
-          </div>
-        </form>
-
-        <div>{showResult ? <Result /> : null}</div>
       </div>
     </div>
   );

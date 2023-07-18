@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  
+
 
   <h3 align="center">My Portfolio</h3>
 
@@ -60,10 +60,9 @@
 ## About The Project
 
 [![My Porfoltio App][app-screenshot]](https://my-portfolio-mauve-alpha.vercel.app/)
-My personal portfolio built with Next. It is fully responsive and fetaures my projects and skills. 
+My personal portfolio built with Next. It is fully responsive and fetaures my projects and skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Built With
 
@@ -74,13 +73,11 @@ My personal portfolio built with Next. It is fully responsive and fetaures my pr
 - VsCode
 - Vercel
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Demo
 
 [Live Demo](https://my-portfolio-mauve-alpha.vercel.app/)
-
 
 <!-- GETTING STARTED -->
 
@@ -98,15 +95,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-
-
 Install the dependencies and devdependencies.
+
 ```sh
   cd my-portfolio
 
   npm install
 
 ```
+
 To start react server
 
 ```sh
@@ -116,8 +113,6 @@ npm run dev
 ```
 
 <!-- USAGE EXAMPLES -->
-
-
 
 ## Usage
 
@@ -136,10 +131,9 @@ The projects page of the app.
 The project details page.
 <img src="public/Assests/readme/portfolio-projects-details-page.jpg" alt="Image of the projects details of the app" />
 
-
-
-
-
+Contact form
+<img src="public/Assests/readme/portfolio-contact-page.jpg
+" alt="Image of conatct form" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,4 +184,3 @@ Project Link: [https://github.com/Ree-m/my-portfolio](https://my-portfolio-mauve
 
 [license-url]: https://github.com/Ree-m/my-portfolio/blob/main/LICENSE.txt
 [app-screenshot]: public/Assests/readme/my-portfolio-homepage.jpg
-
