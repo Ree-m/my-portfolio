@@ -43,7 +43,6 @@
 }
 
 .form .input:focus{
-    border: none;
     background-color: #e8f0fe;
     outline: none;
 
@@ -57,7 +56,6 @@
 }
 
 .form textarea:focus{
-    border: none;
     background-color: #e8f0fe;
     outline: none;
 }
