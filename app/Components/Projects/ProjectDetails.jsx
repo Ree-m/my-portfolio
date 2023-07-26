@@ -101,13 +101,7 @@ const ProjectDetails = ({ projectData }) => {
       <div>
         <div className={styles.top}>
           <div className={styles.imgContainer}>
-            {/* <Image
-              src={ImageSrc}
-              height={400}
-              width={600}
-              alt={`Image of home page`}
-              className={styles.img}
-            /> */}
+          
             <img
               src={ImageSrc}
               alt={`Image of home page`}
@@ -122,7 +116,7 @@ const ProjectDetails = ({ projectData }) => {
 
         <div className={styles.content}>
           {sections.map((section) =>
-            section.title === "Technologies used" ? (
+            section.title === "Technologies Used" ? (
               <div key={section.title} className={styles.subSection}>
                 <h3>{section.title}</h3>
                 {section.content.map((item, index) => (
@@ -137,19 +131,13 @@ const ProjectDetails = ({ projectData }) => {
                 {section.content.map((item, index) => (
                   <div key={index}>
                     <p>{item}</p>
-                    {section.title === "Key features" &&
+                    {section.title === "Key Features" &&
                       section.images &&
                       section.images[index] && (
                         <div
                           className={`${styles.imgContainer} ${styles.imgSpacing}`}
                         >
-                          {/* <Image
-                            src={section.images[index]}
-                            height={400}
-                            width={600}
-                            alt={`eImage for key featur`}
-                            className={styles.img}
-                          /> */}
+                       
                           <img
                             src={section.images[index]}
                             alt={`Image of the key feature`}
