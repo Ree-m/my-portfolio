@@ -2,8 +2,8 @@ const projectsData = [
   {
     id: 1,
     title: "Manga Verse",
-    githubLink:"https://github.com/Ree-m/manga-verse",
-    demoLink:"https://manga-verse.onrender.com/",
+    githubLink: "https://github.com/Ree-m/manga-verse",
+    demoLink: "https://manga-verse.onrender.com/",
     description:
       "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
     ImageSrc: `/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`,
@@ -57,13 +57,13 @@ const projectsData = [
         ],
       },
       {
-        title: "Implentation details",
+        title: "Implementation Details",
         content: [
           'Manga verse incorprates a microservice architecture with Kian Api and pupperteer. The first part uses Jiakn API to retrieve data. From Jikan API, data like title,author,summary,manga cover, for all manga is retrieved.Using the title retrieved from Jikan Api, the second part of the app "the scraper" runs. The scarper takes the title of the manga and using puppeteer scrapes a specific app and finds and returns a manga with a matching title. The data that is returend from the scarper is only the manga chapter list and the images of each chapter.',
         ],
       },
       {
-        title: "Lessons learned",
+        title: "Lessons Learned",
         content: [
           "Throughout the course of this project, my primary goal was to learn Next.js. As I dived into the development process, I gained insights and experience using Next.js' dynamic routing, server-side rendering, and API integration features. This allowed me to create a more dynamic and performant application.",
 
@@ -89,8 +89,8 @@ const projectsData = [
   {
     id: 2,
     title: "Skinology",
-    githubLink:"https://github.com/Ree-m/skinology-ecommerce-app",
-    demoLink:"https://skinology-ecommerce-app-client.onrender.com/",
+    githubLink: "https://github.com/Ree-m/skinology-ecommerce-app",
+    demoLink: "https://skinology-ecommerce-app-client.onrender.com/",
     description:
       "Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels.",
     ImageSrc: `/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
@@ -102,17 +102,11 @@ const projectsData = [
         ],
       },
       {
-        title: "Technologies used",
-        content: [
-          "Express.js",
-          "React.js",
-          "Node.js",
-          "MongoDB",
-          "Render",
-        ],
+        title: "Technologies Used",
+        content: ["Express.js", "React.js", "Node.js", "MongoDB", "Render"],
       },
       {
-        title: "Implementation details",
+        title: "Implementation Details",
         content: [
           "The app follows a mvc architecture. The view being the client folder, the models and the controllers in the api folder. The modeland controllers ecah have auth,cart and produect. The auth controller and model use JWT,cookies and bcrypt to proevide user auth. The product controller and model have functions for fetching products for users and for adding ,editing,deleting for admins. The cart have functions for addig to cart, delteing from,updating quantity.",
 
@@ -126,7 +120,7 @@ const projectsData = [
         ],
       },
       {
-        title: "Key features",
+        title: "Key Features",
         content: [
           "1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables adminstrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory.",
 
@@ -161,7 +155,7 @@ const projectsData = [
         ],
       },
       {
-        title: "Lessons learned",
+        title: "Lessons Learned",
         content: [
           "This project was the one with the biggest learning curve for me. I entered with only a basic understanding of CRUD operations and being an absolute beginner in React. However, by the end, I had become much more comfortable with the fundamental concepts of React and CRUD.",
 
@@ -196,9 +190,9 @@ const projectsData = [
     id: 3,
     title: "Book Finder",
     githubLink: "https://github.com/Ree-m/book-finder",
-    demoLink:"https://book-finder-lfxo.onrender.com/",
+    demoLink: "https://book-finder-lfxo.onrender.com/",
     description: "",
-    ImageSrc: `/Assests/book-finder-lfxo-onrender-com-1024x768desktop-c0dfa8.jpg`,
+    ImageSrc: `/Assests/book-finder/book-finder-home.jpg`,
     sections: [
       {
         title: "Introduction",
@@ -207,18 +201,18 @@ const projectsData = [
         ],
       },
       {
-        title: "Technologies used",
+        title: "Technologies Used",
         content: ["React", "Google books API", "Css", "Vercel"],
       },
       {
-        title: "Implementation details",
+        title: "Implementation Details",
         content: [
           "The app is built using React and utilizes the Google Books API to fetch book data. React provides a robust framework for building the user interface and managing component states, while the Google Books API serves as the source of book information.",
           "To implement the search function, the app sends search queries to the Google Books API and retrieves the corresponding search results. The search function is designed to allow users to search for books based on various criteria such as book title, author name, or publishing date.",
         ],
       },
       {
-        title: "Key features",
+        title: "Key Features",
         content: [
           "1.Search Function: Users can utilize the search function to find books based on various criteria such as book title, author name, or publishing date. This feature enables users to easily discover specific books they are looking for.",
 
@@ -226,13 +220,10 @@ const projectsData = [
 
           "These features contribute to enhancing the user experience by enabling efficient book search and providing comprehensive details for each book within the application.",
         ],
-        images: [
-          "/Assests/book-finder/book-finder-search-placeholder.jpg",
-          "",
-        ],
+        images: ["/Assests/book-finder/bookfinder-search.jpg", "/Assests/book-finder/book-finder-details-page.jpg"],
       },
       {
-        title: "Lessons learned",
+        title: "Lessons Learned",
         content: [
           "This React app served as my first introduction to React. Throughout the development process, I gained valuable experience in utilizing React hooks, such as useState and useEffect, to manage state and handle side effects.",
 
@@ -242,9 +233,10 @@ const projectsData = [
       {
         title: "Future Improvement",
         content: [
-          "User Authentication: Enhance the app's security and user experience by implementing user authentication using technologies such as JSON Web Tokens (JWT) or passport.js. This will enable registered users to securely log in, access personalized features, and protect their account information.",
+          "Update CSS: Elevate the user experience by updating the CSS to achieve a more aesthetic and responsive design. Additionally, incorporate CSS modules to improve maintainability and organization.",
+          "2. User Authentication: Enhance the app's security and user experience by implementing user authentication using technologies such as JSON Web Tokens (JWT) or passport.js. This will enable registered users to securely log in, access personalized features, and protect their account information.",
 
-          "Bookmarking Feature: Provide registered users with the ability to bookmark their favorite books. This feature will allow users to save and easily access their preferred books, enhancing their overall reading experience and providing a convenient way to keep track of their reading list.",
+          "3. Bookmarking Feature: Provide registered users with the ability to bookmark their favorite books. This feature will allow users to save and easily access their preferred books, enhancing their overall reading experience and providing a convenient way to keep track of their reading list.",
         ],
       },
     ],

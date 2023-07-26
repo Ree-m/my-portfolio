@@ -89,7 +89,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:50px 0px ;
+  padding:200px 0px ;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 767px) {
@@ -116,14 +117,24 @@
     width: 100%;
   }
 }
-@media (max-width: 1023px) {
+@media (min-width:768px) and (max-width: 1023px) {
   .contact {
     padding: 80px 50px 50px 50px;
   }
 }
+
+@media (min-width:767px) and (max-width:1400px){
+  .btn{
+    width:30%
+  }
+}
+
+
 
 @media (min-width: 1800px) {
   .contact {
     padding: 80px 250px 50px 250px;
   }
 }
+
+  
