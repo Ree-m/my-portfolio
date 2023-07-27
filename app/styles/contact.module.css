@@ -40,13 +40,11 @@
   padding: 24px 21px;
   width: 70%;
   font-size: 1.1rem;
-
 }
 
-.form .input:focus{
-    background-color: #e8f0fe;
-    outline: none;
-
+.form .input:focus {
+  background-color: #e8f0fe;
+  outline: none;
 }
 .form textarea {
   width: 70%;
@@ -58,9 +56,9 @@
   font-family: inherit;
 }
 
-.form textarea:focus{
-    background-color: #e8f0fe;
-    outline: none;
+.form textarea:focus {
+  background-color: #e8f0fe;
+  outline: none;
 }
 
 .btnContainer {
@@ -76,20 +74,20 @@
   background-color: #623686;
   color: var(--text-white);
   width: 20%;
-  margin-bottom: 15px; 
-  font-size:1.2rem
+  margin-bottom: 15px;
+  font-size: 1.2rem;
 }
 
-.btn:hover{
-    background-color: #6d20c5d7;
-    border-color: #6d20c5d7;
+.btn:hover {
+  background-color: #6d20c5d7;
+  border-color: #6d20c5d7;
 }
 
-.result{
+.result {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:200px 0px ;
+  padding: 200px 0px;
   font-size: 1.2rem;
 }
 
@@ -97,63 +95,56 @@
   .contact {
     padding: 100px 50px 50px 50px;
   }
-  .conatct h2{
+  .conatct h2 {
     padding-top: 100px;
-
   }
 
   .form .input {
     width: 100%;
     color: black;
-
   }
- 
+
   .form textarea {
     width: 100%;
     color: black;
-
   }
   .btn {
     width: 100%;
   }
 }
-@media (min-width:768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .contact {
     padding: 80px 50px 50px 50px;
   }
 }
 
-@media (min-width:767px) and (max-width:1400px){
-  .btn{
-    width:30%
+@media (min-width: 767px) and (max-width: 1400px) {
+  .btn {
+    width: 30%;
   }
 }
-
-
 
 @media (min-width: 1800px) {
   .contact {
     padding: 150px 250px 380px 250px;
   }
-  .conatct h2{
+  .conatct h2 {
     font-size: 4rem;
   }
-  .conatct p{
+  .contact p {
     font-size: 1.6rem;
   }
-  .form input{
+  .form input {
     font-size: 1.6rem;
     padding: 40px 25px;
   }
-  .form textarea{
-font-size: 1.6rem;
-padding: 40px 25px 60px 25px;
-  }
-  .btn{
+  .form textarea {
     font-size: 1.6rem;
-    padding: 25px 40px ;
+    padding: 40px 25px 60px 25px;
+  }
+  .btn {
+    font-size: 1.6rem;
+    padding: 25px 40px;
     width: 15%;
   }
 }
-
-  
