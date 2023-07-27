@@ -69,7 +69,7 @@ const Contact = () => {
               type="text"
               name="user_name"
               placeholder="Name"
-              className={styles.input}
+              className={styles.input} 
               required
             />
             <input
