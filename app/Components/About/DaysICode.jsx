@@ -13,7 +13,7 @@ const DaysICode = () => {
         username="Ree-m"
         blockSize={15} 
         blockMargin={5}
-        colorScheme='light'
+        colorScheme='light' 
         theme={theme}
         fontSize={16}
         className={styles.github}
