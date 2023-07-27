@@ -26,7 +26,7 @@
   justify-content: center;
   align-items: center;
   color: var(--text-white);
-  font-size: 4.5em;
+  font-size: 4.8em;
   margin: 15px;
   padding: 20px 0px;
   opacity: 0.93;
@@ -49,7 +49,7 @@
     grid-template-columns: repeat(2, 1fr);
 
   }
-}
+} 
 @media (min-width:471px) and (max-width:767px){
   .tech h2{
     font-size: 2.2rem;
@@ -57,5 +57,19 @@
   .techIcons{
     grid-template-columns: repeat(3, 1fr);
 
+  }
+}
+
+@media(min-width:1800px){
+  .tech{
+    margin-bottom:150px ;
+  }
+  .tech h2{
+    font-size:4rem;
+    margin-bottom: 60px;
+
+  }
+  .techIcons i{
+    font-size:6rem
   }
 }

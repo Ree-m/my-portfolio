@@ -46,7 +46,7 @@ const Projects = () => {
           ImageSrc={`/Assests/book-finder/book-finder-home.jpg`}
           id={3}
           githubLink={"https://github.com/Ree-m/book-finder"}
-          demoLink={"https://book-finder-lfxo.onrender.com/"}
+          demoLink={"https://book-finder-tau.vercel.app/"}
         />
       </div>
     </div>

@@ -31,7 +31,7 @@ const AboutMe = () => {
         </div>
         <div className={`${styles.heroImg} ${styles.imgContainer}`}>
             {/* <Image
-              src={ImageSrc}
+              src={ImageSrc} 
               height={400}
               width={400}
               alt={`Image of hero`}

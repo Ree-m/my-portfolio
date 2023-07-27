@@ -120,15 +120,15 @@
 
 @media (min-width:1800px){
 .header{
-  padding: 0px 300px;
+  padding: 0px 280px;
   padding-top: 40px;
 }
 
 .navLinks a{
   gap:15px;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 .logo{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 }

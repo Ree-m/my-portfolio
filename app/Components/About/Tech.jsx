@@ -12,7 +12,7 @@ const Tech = () => {
 
       <div className={styles.techIcons}>
         <i>
-          <DiJavascript1 />
+          <DiJavascript1 /> 
         </i>
         <i>
           <BiLogoReact />

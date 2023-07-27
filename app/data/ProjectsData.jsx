@@ -190,7 +190,7 @@ const projectsData = [
     id: 3,
     title: "Book Finder",
     githubLink: "https://github.com/Ree-m/book-finder",
-    demoLink: "https://book-finder-lfxo.onrender.com/",
+    demoLink: "https://book-finder-tau.vercel.app/",
     description: "",
     ImageSrc: `/Assests/book-finder/book-finder-home.jpg`,
     sections: [

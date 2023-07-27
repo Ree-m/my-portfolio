@@ -157,4 +157,11 @@
   .icons i{
     font-size: 2rem;
   }
+  .intro p{
+    line-height: 40px;
+  }
+
+  .intro h1{
+    padding-bottom: 100px;
+  }
 }

@@ -10,10 +10,13 @@
 .container{
     margin-bottom: 50px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
  
-.purple{
+.purple{ 
     color:var(--purple-main) !important;
     font-weight: 400;
 
@@ -25,5 +28,12 @@
 @media(max-width:767px){
     .container h2{
         font-size: 2.2rem;
+    }
+}
+
+@media(min-width:1800px){
+    .container h2{
+        font-size: 4rem;
+        margin-bottom: 60px;
     }
 }
