@@ -146,7 +146,7 @@ const projectsData = [
           "/Assests/skinology/skinology-admin-only.jpg",
           "/Assests/skinology/skinology-auth-page.jpg",
           "/Assests/skinology/skinology-user-cart.jpg",
-          "",
+          "/Assests/skinology/skinology-guest-cart.jpg",
           "/Assests/skinology/skinology-product-details-page.jpg",
           "/Assests/skinology/skinology-search.jpg",
           "/Assests/skinology/skinology-main-carousel.jpg",
