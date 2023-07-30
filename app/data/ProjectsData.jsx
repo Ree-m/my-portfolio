@@ -15,7 +15,7 @@ const projectsData = [
         ],
       },
       {
-        title: "Technologies used",
+        title: "Technologies Used",
         content: [
           "Next.js",
           "Express.js",
@@ -27,7 +27,7 @@ const projectsData = [
         ],
       },
       {
-        title: "Key features",
+        title: "Key Features",
         content: [
           "1. Manga Reading: The app offers an immersive manga reading experience where users can seamlessly access and enjoy manga chapters. Dive into captivating storylines and stunning artwork as you effortlessly binge through your favorite manga series.",
           '2. Chapter Page: Clicking on a chapter in the manga details page displays the chapter\'s images. Users can easily navigate between chapters using "next chapter" and "previous chapter" buttons, or by selecting a specific chapter from the dropdown menu.',
