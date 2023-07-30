@@ -20,7 +20,7 @@ const Projects = () => {
           description={
             "Manga Verse is an manga viewing app that utilizes a microservice architecture,integrating the Jikan API for manga data retrieval and Puppeteer for chapter scraping. Developed with technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse offers a seamless user experience. Its key features include user authentication, manga browsing with genre, popularity, and release date filtering options, and an immersive manga reading experience."
           }
-          ImageSrc={`/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`}
+          ImageSrc={`/Assests/manga-verse/manga-verse-home-page.jpg`}
           id={1}
           githubLink={"https://github.com/Ree-m/manga-verse"}
           demoLink={"https://manga-verse.onrender.com/"}

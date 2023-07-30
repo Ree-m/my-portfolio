@@ -220,7 +220,10 @@ const projectsData = [
 
           "These features contribute to enhancing the user experience by enabling efficient book search and providing comprehensive details for each book within the application.",
         ],
-        images: ["/Assests/book-finder/bookfinder-search.jpg", "/Assests/book-finder/book-finder-details-page.jpg"],
+        images: [
+          "/Assests/book-finder/bookfinder-search.jpg",
+          "/Assests/book-finder/book-finder-details-page.jpg",
+        ],
       },
       {
         title: "Lessons Learned",
