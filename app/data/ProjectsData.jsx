@@ -30,29 +30,29 @@ const projectsData = [
         title: "Key features",
         content: [
           "1. Manga Reading: The app offers an immersive manga reading experience where users can seamlessly access and enjoy manga chapters. Dive into captivating storylines and stunning artwork as you effortlessly binge through your favorite manga series.",
+          '2. Chapter Page: Clicking on a chapter in the manga details page displays the chapter\'s images. Users can easily navigate between chapters using "next chapter" and "previous chapter" buttons, or by selecting a specific chapter from the dropdown menu.',
 
-          "2. User Authentication: The app incorporates NextAuth to facilitate user authentication. This allows users to create accounts, log in, and securely access personalized feautures.",
+          "3. User Authentication: The app incorporates NextAuth to facilitate user authentication. This allows users to create accounts, log in, and securely access personalized feautures.",
 
-          "3. Manga Filtering: Users have the ability to filter manga based on various variables such as status (completed/ongoing), popularity, or genres.",
+          "4. Manga Filtering: Users have the ability to filter manga based on various variables such as status (completed/ongoing), popularity, or genres.",
 
-          "4. Bookmarking Manga: Registered users can bookmark manga they enjoy, providing a convenient way to save and access their favorite titles. This feature enhances the user experience by allowing users to easily track and revisit their preferred manga.",
+          "5. Bookmarking Manga: Registered users can bookmark manga they enjoy, providing a convenient way to save and access their favorite titles. This feature enhances the user experience by allowing users to easily track and revisit their preferred manga.",
 
-          "5. Manga Details Page: This page provides comprehensive information about a specific manga, including its title, author, genres, manga cover, and a list of chapters. Registered users can also bookmark manga directly from this page.",
+          "6. Manga Details Page: This page provides comprehensive information about a specific manga, including its title, author, genres, manga cover, and a list of chapters. Registered users can also bookmark manga directly from this page.",
 
-          '6. Chapter Page: Clicking on a chapter in the manga details page displays the chapter\'s images. Users can easily navigate between chapters using "next chapter" and "previous chapter" buttons, or by selecting a specific chapter from the dropdown menu.',
           "7. Manga Search: The app provides a search bar in the header, allowing users to search for specific manga. This feature enables quick and convenient discovery of desired manga.",
-          "8. Top Week Carousel: The app features a carousel highlighting the weeklt top manga titles. Users can easily explore and discover trending manga titles in a visually appealing manner.",
+          "8. New Carousel: The app features a carousel highlighting the newest titles. Users can easily explore and discover trending manga titles in a visually appealing manner.",
 
           "These key features prioritize the manga reading aspect of the app, ensuring users can enjoy a user-friendly and personalized experience while exploring, filtering, bookmarking, and reading manga chapters effortlessly.",
         ],
         images: [
-          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+          "/Assests/manga-verse/manga-verse-chapters-list.jpg",
           "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
-          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
-          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
-          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
-          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
-          "/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg",
+          "/Assests/manga-verse/manga-verse-login.jpg",
+          "public/Assests/manga-verse/manga-verse-genres.png",
+          "/Assests/manga-verse/manga-verse-bookmark-page.jpg",
+          "",
+          "/Assests/manga-verse/manga-verse-search.jpg",
           "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
         ],
       },
