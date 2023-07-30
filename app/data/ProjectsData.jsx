@@ -47,13 +47,13 @@ const projectsData = [
         ],
         images: [
           "/Assests/manga-verse/manga-verse-chapters-list.jpg",
-          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+          "/Assests/manga-verse/manga-verse-chapter-page.jpg",
           "/Assests/manga-verse/manga-verse-login.jpg",
-          "public/Assests/manga-verse/manga-verse-genres.png",
+          "/Assests/manga-verse/manga-verse-genres.jpg",
           "/Assests/manga-verse/manga-verse-bookmark-page.jpg",
-          "",
+          "/Assests/manga-verse/manga-verse-manga-page.jpg",
           "/Assests/manga-verse/manga-verse-search.jpg",
-          "/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg",
+          "/Assests/manga-verse/manga-verse-new-manga.jpg",
         ],
       },
       {
