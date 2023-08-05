@@ -4,6 +4,8 @@ import styles from "../../styles/intro.module.css";
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BiLogoGmail } from "react-icons/bi";
+import { BsTwitter } from "recat-icons/bs";
+
 import Image from "public/Assests/avatar-dark-purple.png";
 import { ImageComponent } from "../ImageComponent";
 import Tilt from "react-parallax-tilt";
@@ -67,6 +69,16 @@ const Intro = () => {
               }
             >
               <GrLinkedinOption />
+            </i>
+          </div>
+
+          <div>
+            <i
+              onClick={() =>
+                openInNewTab("https://www.linkedin.com/in/reembsrat/")
+              }
+            >
+              <BsTwitter />
             </i>
           </div>
 

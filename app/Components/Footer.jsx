@@ -2,8 +2,8 @@
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { GrLinkedinOption } from "react-icons/gr";
 import { BiLogoGmail } from "react-icons/bi";
+import {BsTwitter} from "react-icons/bs"
 
-import Link from "next/link";
 import styles from "app/styles/footer.module.css";
 const Footer = () => {
   const openInNewTab = (url) => {
@@ -23,6 +23,12 @@ const Footer = () => {
         <div>
           <i onClick={()=>openInNewTab("https://www.linkedin.com/in/reembsrat/")}>
             <GrLinkedinOption />
+          </i>
+        </div>
+
+        <div>
+          <i onClick={()=>openInNewTab("https://twitter.com/Reem_Dev")}>
+            <BsTwitter />
           </i>
         </div>
 

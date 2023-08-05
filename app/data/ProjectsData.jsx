@@ -6,7 +6,7 @@ const projectsData = [
     demoLink: "https://manga-verse.onrender.com/",
     description:
       "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
-    ImageSrc: `/Assests/manga-verse-onrender-com-1024x768desktop-0a5d74.jpg`,
+    ImageSrc: `/Assests/manga-verse/manga-verse-home-page.jpg`,
     sections: [
       {
         title: "Introduction",
@@ -67,7 +67,7 @@ const projectsData = [
         content: [
           "Throughout the course of this project, my primary goal was to learn Next.js. As I dived into the development process, I gained insights and experience using Next.js' dynamic routing, server-side rendering, and API integration features. This allowed me to create a more dynamic and performant application.",
 
-          "One important lesson I learned was the advantage of always utilizing server-side components unless client-side rendering was absolutely necessary, such as for onClick events or other interactive features. Server-side components, with their suspense boundaries, are more efficient and overall more user-friendly.Additionally, in server side components, loading state is eaiser to handle. Sadly, I realsized this towards the end of the project, so most of my components are yet to be as server side components.",
+          "One important lesson I learned was the advantage of always utilizing server-side components unless client-side rendering was absolutely necessary, such as for onClick events or other interactive features. Server-side components, with their suspense boundaries, are more efficient and overall more user-friendly.Additionally, in server side components, loading state is eaiser to handle. Sadly, I realsized this towards the end of the project, so most of my components are yet to be server side components.",
 
           "One of the highlights of this project for me was the manga chapter page, where users can read any chapter of a specific manga. To achieve this functionality, I explored and learned Puppeteer, a tool that surprised me with its beginner-friendly nature.Using Puppeteer allowed me to efficiently scrape and display manga chapters, enriching the user experience and providing the main feature to the app.",
 
