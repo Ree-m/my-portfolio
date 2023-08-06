@@ -21,7 +21,7 @@ const AboutMe = () => {
           <br/>
           <ul>
             <li>Learning languages, currently I am doing an A1 mandarin course!</li>
-            <li>Reading comics, I am an absoulte manga fan.</li>
+            <li>Reading comics, I am an absolute manga fan.</li>
             <li>Watching movies or shows.</li>
           </ul>
 

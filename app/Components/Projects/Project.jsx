@@ -39,12 +39,12 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
 
             <button onClick={() => openInNewTab(githubLink)}>
               <AiFillGithub />
-              Github
+              GitHub
             </button>
 
             <button onClick={() => openInNewTab(demoLink)}>
               <CgWebsite />
-              Demo
+              Live website
             </button>
         </div>
       </div>
