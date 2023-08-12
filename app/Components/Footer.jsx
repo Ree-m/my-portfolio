@@ -15,7 +15,7 @@ const Footer = () => {
       <span>Copyright © 2023 Reem</span>
       <div className={styles.footerIcons}>
        
-        <a target="_blank" href="https://github.com/Ree-m" arai-label="See my GitHub account">
+        <a target="_blank" href="https://github.com/Ree-m" aria-label="See my GitHub account">
         <AiFillGithub />
         </a>
 

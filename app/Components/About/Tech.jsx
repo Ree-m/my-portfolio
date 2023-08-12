@@ -12,8 +12,9 @@ const Tech = () => {
 
       <div className={styles.techIcons}>
         <div aria-label="JavaScript">
-          <DiJavascript1/>
         <i>
+        <DiJavascript1/>
+
         </i>
         </div>
 
@@ -64,11 +65,10 @@ const Tech = () => {
         </i>
         </div>
 
-        <div aria-label="MongoDB">
+        <div aria-label="Puppeteer">
         <i>
-          <DiMongodb/>
-        </i>
         <SiPuppeteer/>
+        </i>
         </div>
         
       </div>
