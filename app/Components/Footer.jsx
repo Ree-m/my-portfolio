@@ -15,15 +15,15 @@ const Footer = () => {
       <span>Copyright © 2023 Reem</span>
       <div className={styles.footerIcons}>
        
-        <a target="_blank" href="https://github.com/Ree-m">
+        <a target="_blank" href="https://github.com/Ree-m" arai-label="See my GitHub account">
         <AiFillGithub />
         </a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/reembsrat/">
+        <a target="_blank" href="https://www.linkedin.com/in/reembsrat/" aria-label="See my LinkedIn account">
         <GrLinkedinOption />
         </a>
 
-        <a target="_blank" href="mailto:reembsrat@gmail.com">
+        <a target="_blank" href="mailto:reembsrat@gmail.com" aria-label="Email me">
         <BiLogoGmail/>
         </a>
 

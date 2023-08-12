@@ -11,37 +11,66 @@ const Tech = () => {
       <h2><b className={styles.purple}>Tech</b>{" "}I use</h2>
 
       <div className={styles.techIcons}>
-        <i aria-label="JavaScript">
-          <DiJavascript1 /> 
+        <div aria-label="JavaScript">
+          <DiJavascript1/>
+        <i>
         </i>
-        <i aria-label="React.js">
-          <BiLogoReact />
-        </i>
-        <i aria-label="Node.js">
-          <DiNodejs />
-        </i>
-        <i aria-label="Express.js">
-          <SiExpress />
-        </i>
-        <i aria-label="MongoDB">
-          <DiMongodb />
-        </i>
-        <i aria-label="Next.js">
-          <SiNextdotjs />
-        </i>
+        </div>
 
-        <i aria-label="HTML5">
-          <AiOutlineHtml5 />
+        <div aria-label="React.js">
+
+        <i>
+        <BiLogoReact />
+
         </i>
-        <i aria-label="CSS3">
-          <TbBrandCss3 />
+        </div>
+
+        <div aria-label="Node.js">
+        <i>
+        <DiNodejs />
+
         </i>
-        <i aria-label="Git">
-          <BsGit />
+        </div>
+        <div aria-label="Express.js">
+        <i>
+          <SiExpress/>
         </i>
-        <i aria-label="Puppeteer">
-          <SiPuppeteer />
+        </div>
+        <div aria-label="MongoDB">
+        <i>
+          <DiMongodb/>
         </i>
+        </div>
+
+        <div aria-label="Next.js">
+        <i>
+          <SiNextdotjs/>
+        </i>
+        </div>
+        <div aria-label="HTML5">
+        <i>
+          <AiOutlineHtml5/>
+        </i>
+        </div>
+
+        <div aria-label="CSS3">
+        <i>
+          <TbBrandCss3/>
+        </i>
+        </div>
+        <div aria-label="Git">
+        <i>
+          <BsGit/>
+        </i>
+        </div>
+
+        <div aria-label="MongoDB">
+        <i>
+          <DiMongodb/>
+        </i>
+        <SiPuppeteer/>
+        </div>
+        
       </div>
     </div>
   );
