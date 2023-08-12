@@ -37,7 +37,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <Intro />
+        {/* <Intro /> */}
       </div>
     </div>
   );

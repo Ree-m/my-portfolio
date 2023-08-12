@@ -14,31 +14,20 @@ const Footer = () => {
       <span>Developed by Reem, Designed by Soumyajit Behera</span>
       <span>Copyright © 2023 Reem</span>
       <div className={styles.footerIcons}>
-        <div>
-          <i onClick={() => openInNewTab("https://github.com/Ree-m")}>
-            <AiFillGithub />
-          </i>
-        </div>
+       
+        <a target="_blank" href="https://github.com/Ree-m">
+        <AiFillGithub />
+        </a>
 
-        <div>
-          <i onClick={()=>openInNewTab("https://www.linkedin.com/in/reembsrat/")}>
-            <GrLinkedinOption />
-          </i>
-        </div>
+        <a target="_blank" href="https://www.linkedin.com/in/reembsrat/">
+        <GrLinkedinOption />
+        </a>
 
-        <div>
-          <i onClick={()=>openInNewTab("https://twitter.com/Reem_Dev")}>
-            <BsTwitter />
-          </i>
-        </div>
+        <a target="_blank" href="mailto:reembsrat@gmail.com">
+        <BiLogoGmail/>
+        </a>
 
-      
 
-        <div>
-          <i  onClick={() => window.location = 'mailto:reembsrat@gmail.com'}>
-            <BiLogoGmail/>
-          </i>
-        </div>
       </div>
     </div>
   );

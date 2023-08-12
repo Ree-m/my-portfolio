@@ -110,12 +110,36 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1023px) {
+/* @media (min-width:768px) and (max-width:1023px) {
   .header{
     padding: 0px 50px;
     padding-top: 20px;
 
   }
+} */
+
+
+@media (min-width: 768px) and (max-width: 970px) {
+  
+
+  .header{
+    padding: 0px 10px;
+    padding-top: 20px;
+
+  }
+
+ 
+}
+
+@media (min-width: 971px) and (max-width: 1200px) {
+  .header {
+    padding: 0px 30px;
+    padding-top: 20px;
+
+
+  }
+
+
 }
 
 @media (min-width:1800px){

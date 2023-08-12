@@ -58,6 +58,10 @@
     grid-template-columns: repeat(3, 1fr);
 
   }
+  .techIcons i{
+    padding: 20px 10px;
+
+  }
 }
 
 @media(min-width:1800px){
@@ -70,6 +74,7 @@
 
   }
   .techIcons i{
-    font-size:6rem
+    font-size:.5rem;
+    padding: 25px 10px;
   }
 }

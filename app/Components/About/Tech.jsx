@@ -11,35 +11,35 @@ const Tech = () => {
       <h2><b className={styles.purple}>Tech</b>{" "}I use</h2>
 
       <div className={styles.techIcons}>
-        <i>
+        <i aria-label="JavaScript">
           <DiJavascript1 /> 
         </i>
-        <i>
+        <i aria-label="React.js">
           <BiLogoReact />
         </i>
-        <i>
+        <i aria-label="Node.js">
           <DiNodejs />
         </i>
-        <i>
+        <i aria-label="Express.js">
           <SiExpress />
         </i>
-        <i>
+        <i aria-label="MongoDB">
           <DiMongodb />
         </i>
-        <i>
+        <i aria-label="Next.js">
           <SiNextdotjs />
         </i>
 
-        <i>
+        <i aria-label="HTML5">
           <AiOutlineHtml5 />
         </i>
-        <i>
+        <i aria-label="CSS3">
           <TbBrandCss3 />
         </i>
-        <i>
+        <i aria-label="Git">
           <BsGit />
         </i>
-        <i>
+        <i aria-label="Puppeteer">
           <SiPuppeteer />
         </i>
       </div>

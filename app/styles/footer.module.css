@@ -4,9 +4,10 @@
   grid-template-columns: repeat(3,1fr);
   width: 100%;
   background-color: rgb(10, 4, 22);
-  position: sticky;
+  position:sticky;
   bottom: 0;
   padding: 15px 0px;
+  font-size: 0.8rem;
 }
 .footer span{
     text-align: center;
@@ -20,13 +21,13 @@
 }
 
 
-.footerIcons i{
+.footerIcons a{
   color: var(--text-white);
   cursor: pointer;
 }
 
 
-.footerIcons i:hover {
+.footerIcons a:hover {
   /* box-shadow: 0 0 5px #87209e; */
   color: var(--purple-main);
 }
@@ -43,13 +44,15 @@
   }
 }
 
+
+
 @media (min-width:1800px){
   .footerIcons{
     font-size: 1.8rem;
   }
 
   .footer{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 35px 0px 35px 15px;
   }
 }

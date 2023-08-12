@@ -10,10 +10,17 @@ const AboutMe = () => {
           <h2>
             Know who <b className={styles.purple}>I am</b>
           </h2>
+          <p>I somehow ended up coding and so far I enjoy it quite alot.</p>
 
           <p>
-          I am skilled in JavaScript, MongoDB, Node.js, and JavaScript libraries and frameworks like React, Next, and Express.
+          I am skilled in JavaScript, Node.js, MongoDB and JavaScript libraries and frameworks like React, Next, and Express. I am always looking learning to expand my skillset.
 </p>
+
+<p>
+            I prefer back-end over front-end, until I am two days deep into
+            solving a new to me server error and then somehow React is the best
+            thing ever 😆
+          </p>
 
           <p> 
             When not coding, my favorite things to do are:
