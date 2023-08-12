@@ -15,28 +15,28 @@ const Header = () => {
 
 
       <div className={styles.logo}>
-        <Link href={`/`}>
+        <Link href={`/`} aria-label="Go to home page">
           <h1>Rb.</h1>
         </Link>
       </div>
 
-      <div className={styles.navLinks}>
+      <div className={styles.navLinks} aria-label="Go to home page">
         <Link href={`/`}>
           <AiOutlineHome />
           Home
         </Link>
 
-        <Link href={`/about`}>
+        <Link href={`/about`} aria-label="Go to about page">
           <BsPerson />
           About
         </Link>
 
-        <Link href={`/projects`}>
+        <Link href={`/projects`} aria-label="Go to projects page">
           <AiOutlineFundProjectionScreen />
           Projects
         </Link>
 
-        <Link href={`/contact`}>
+        <Link href={`/contact`} aria-label="go to contact page">
           <AiOutlineMail />
           Contact
         </Link>
