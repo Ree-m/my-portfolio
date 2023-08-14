@@ -11,14 +11,14 @@ const Tech = () => {
       <h2><b className={styles.purple}>Tech</b>{" "}I use</h2>
 
       <div className={styles.techIcons}>
-        <div aria-label="JavaScript">
+        <div role="img" aria-label="JavaScript">
         <i>
         <DiJavascript1/>
 
         </i>
         </div>
 
-        <div aria-label="React.js">
+        <div role="img" aria-label="React.js">
 
         <i>
         <BiLogoReact />
@@ -26,46 +26,46 @@ const Tech = () => {
         </i>
         </div>
 
-        <div aria-label="Node.js">
+        <div role="img" aria-label="Node.js">
         <i>
         <DiNodejs />
 
         </i>
         </div>
-        <div aria-label="Express.js">
+        <div role="img" aria-label="Express.js">
         <i>
           <SiExpress/>
         </i>
         </div>
-        <div aria-label="MongoDB">
+        <div role="img" aria-label="MongoDB">
         <i>
           <DiMongodb/>
         </i>
         </div>
 
-        <div aria-label="Next.js">
+        <div role="img" aria-label="Next.js">
         <i>
           <SiNextdotjs/>
         </i>
         </div>
-        <div aria-label="HTML5">
+        <div role="img" aria-label="HTML5">
         <i>
           <AiOutlineHtml5/>
         </i>
         </div>
 
-        <div aria-label="CSS3">
+        <div role="img" aria-label="CSS3">
         <i>
           <TbBrandCss3/>
         </i>
         </div>
-        <div aria-label="Git">
+        <div role="img" aria-label="Git">
         <i>
           <BsGit/>
         </i>
         </div>
 
-        <div aria-label="Puppeteer">
+        <div role="img" aria-label="Puppeteer">
         <i>
         <SiPuppeteer/>
         </i>
