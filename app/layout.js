@@ -17,13 +17,13 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
         <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} />
-
       </head>
 
       <body className={raleway.className}>
-        <Header />
-        {children}
-        {/* <Footer /> */}
+          <Header />
+          {children}
+
+        <Footer />
       </body>
     </html>
   );

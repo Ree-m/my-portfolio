@@ -60,7 +60,7 @@
 ## About The Project
 
 [![My Porfoltio App][app-screenshot]](https://my-portfolio-mauve-alpha.vercel.app/)
-My personal portfolio built with Next. It is fully responsive and fetaures my projects and skills.
+My personal portfolio built with Next. It is fully responsive and features my projects and skills.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

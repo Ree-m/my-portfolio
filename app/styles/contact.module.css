@@ -1,5 +1,5 @@
 .contact {
-  padding: 100px 140px 180px 140px;
+  padding: 100px 140px 50px 140px;
   color: var(--text-white);
 }
 .contact span {
@@ -126,7 +126,7 @@
 
 @media (min-width: 1800px) {
   .contact {
-    padding: 150px 250px 380px 250px;
+    padding: 150px 250px 100px 250px;
   }
   .conatct h2 {
     font-size: 4rem;
