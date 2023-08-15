@@ -10,15 +10,15 @@ const AboutMe = () => {
           <h2>
             Know who <b className={styles.purple}>I am</b>
           </h2>
-          <p>I somehow ended up coding and so far I enjoy it quite alot.</p>
+          <p>I somehow ended up coding and so far I enjoy it quite a lot.</p>
 
           <p>
-          I am skilled in JavaScript, Node.js, MongoDB and JavaScript libraries and frameworks like React, Next, and Express. I am always looking learning to expand my skillset.
+          I am skilled in JavaScript, Node.js, MongoDB, and JavaScript libraries and frameworks like React, Next, and Express. I am always looking to learn to expand my skill set.
 </p>
 
 <p>
             I prefer back-end over front-end, until I am two days deep into
-            solving a new to me server error and then somehow React is the best
+            solving a new-to-me server error and then somehow React is the best
             thing ever 😆
           </p>
 
@@ -27,7 +27,7 @@ const AboutMe = () => {
           </p>
           <br/>
           <ul>
-            <li>Learning languages, currently I am doing an A1 mandarin course!</li>
+            <li>Learning languages, currently I am doing an A1 Mandarin course!</li>
             <li>Reading comics, I am an absolute manga fan.</li>
             <li>Watching movies or shows.</li>
           </ul>
