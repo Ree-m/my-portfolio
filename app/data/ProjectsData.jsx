@@ -108,7 +108,7 @@ const projectsData = [
       {
         title: "Implementation Details",
         content: [
-          "The app follows a mvc architecture. The view being the client folder, the models and the controllers in the api folder. The modeland controllers ecah have auth,cart and produect. The auth controller and model use JWT,cookies and bcrypt to proevide user auth. The product controller and model have functions for fetching products for users and for adding ,editing,deleting for admins. The cart have functions for addig to cart, delteing from,updating quantity.",
+          "The app follows an mvc architecture. The view is the client folder, the models and the controllers are in the api folder. The models and controllers each have a auth, cart and product files. The auth controller uses JWT,cookies and bcrypt to provide user auth. The product controller has functions for fetching products for users and for adding, editing, deleting for admins. The cart has functions for adding to cart, delteing from, updating quantity.",
 
           'In the implementation of the app, a Model-View-Controller (MVC) architecture was adopted to ensure a clear separation of concerns and maintain code organization. The "view" component is represented by the client folder, while the "models" and "controllers" are in the api folder. Within the api folder, you\'ll find separate models and controllers for authentication, cart management, and product handling.',
 
@@ -122,7 +122,7 @@ const projectsData = [
       {
         title: "Key Features",
         content: [
-          "1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables adminstrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory.",
+          "1. Admin Interface: The app incorporates two interfaces - admin and user. The admin interface enables administrators to perform essential actions such as adding, editing, and deleting products, providing full control over the product inventory.",
 
           "2. User Authentication: User authentication is implemented using JSON Web Tokens (JWT) and cookies. User passwords are securely encrypted using bcrypt and stored in the MongoDB database, ensuring the protection of user credentials.",
 
@@ -136,7 +136,7 @@ const projectsData = [
 
           "7. Main Carousel: The app's homepage features a visually appealing carousel displaying skincare posters. This carousel enhances the aesthetic appeal of the app's design.",
 
-          '8. Best Products Carousel: The homepage also includes a carousel showcasing the best products. Right now, the carousel displays the oldest added products. However, in the future I plan to implement a view system to highlight the most popular products. A "View All Products" button leads to a dedicated page where all the best products are displayed.',
+          '8. Best Products Carousel: The homepage also includes a carousel showcasing the best products. Right now, the carousel displays the oldest added products. However, in the future, I plan to implement a view system to highlight the most popular products. A "View All Products" button leads to a dedicated page where all the best products are displayed.',
 
           '9. New Products: The homepage highlights 12 of the newest products in a grid layout. Clicking on the "View All Products" button directs users to a dedicated page showcasing all recently added products.',
 
@@ -159,15 +159,15 @@ const projectsData = [
         content: [
           "This project was the one with the biggest learning curve for me. I entered with only a basic understanding of CRUD operations and being an absolute beginner in React. However, by the end, I had become much more comfortable with the fundamental concepts of React and CRUD.",
 
-          "Notably, this project marked my first experience working on a full-stack project independently from scratch. The hands-on nature of this proved to be a tremendous learning opportunity, it definelty highlighted the importance of practical application in deepening my understanding and skills.",
+          "Notably, this project marked my first experience working on a full-stack project independently from scratch. The hands-on nature of this proved to be a tremendous learning opportunity, it definitely highlighted the importance of practical application in deepening my understanding and skills.",
 
-          "One crucial lesson that emerged was the significance of state management. While I primarily lifted state up in this project, there was a realization of the need for more advanced state management solutions like context or Redux. This motivated me to explore and learn how to effectively use the Context API, unlocking more efficient and scalable state management techniques.",
+          "One crucial lesson that emerged was the significance of state management. While I primarily lifted the state up in this project, there was a realization of the need for more advanced state management solutions like Context or Redux. This motivated me to explore and learn how to effectively use the Context API, unlocking more efficient and scalable state management techniques.",
 
           "Additionally, I discovered the convenience of utilizing custom CSS properties for colors and fonts. By using custom CSS variables, I eliminated the repetition of typing hex values and font sizes repeatedly, resulting in more streamlined and maintainable styling practices.",
 
           "Additionally by working on this project, I gained experience and confidence in implementing CRUD (Create, Read, Update, Delete) operations and full-stack development. This hands-on experience provided me with a deep understanding of the intricate components and their proper placement within the architecture.",
 
-          "This project has been instrumental in my growth as a developer. It expanded my knowledge of Express,React, state management, styling techniques, and overall full-stack development.",
+          "This project has been instrumental in my growth as a developer. It expanded my knowledge of Express, React, state management, styling techniques, and overall full-stack development.",
         ],
       },
       {
@@ -179,9 +179,9 @@ const projectsData = [
 
           "3. Introduce Category and Brand Filtering: Expand the filtering options by allowing users to filter products based on categories and brands. This enhancement will help users find specific products that match their preferences more effectively.",
 
-          "4. User Profile: Enhance the user profile feature in the app by expanding it to include more details about the user. This includes information such as name, email, profile picture.Additionally, enable users t delete their own accounts within the app.",
+          "4. User Profile: Enhance the user profile feature in the app by expanding it to include more details about the user. This includes information such as name, email and profile picture. Additionally, enable users to delete their accounts within the app.",
 
-          "5. Paginaton: Add pagination to the bets products page and new proeducts page to increase performance.",
+          "5. Pagination: Add pagination to the bets products page and new products page to increase performance.",
         ],
       },
     ],
@@ -214,9 +214,9 @@ const projectsData = [
       {
         title: "Key Features",
         content: [
-          "1.Search Function: Users can utilize the search function to find books based on various criteria such as book title, author name, or publishing date. This feature enables users to easily discover specific books they are looking for.",
+          "1. Search Function: Users can utilize the search function to find books based on various criteria such as book title, author name, or publishing date. This feature enables users to easily discover specific books they are looking for.",
 
-          "2.Book Details Page: Clicking on a particular book from the search results or any other section of the application leads to the book details page. On this page, users can view comprehensive information about the book, including the book cover, title, summary, author, and publishing date. This feature provides users with a comprehensive overview of the selected book.",
+          "2. Book Details Page: Clicking on a particular book from the search results or any other section of the application leads to the book details page. On this page, users can view comprehensive information about the book, including the book cover, title, summary, author, and publishing date. This feature provides users with a comprehensive overview of the selected book.",
 
           "These features contribute to enhancing the user experience by enabling efficient book search and providing comprehensive details for each book within the application.",
         ],
