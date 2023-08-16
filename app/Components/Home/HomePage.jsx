@@ -4,8 +4,6 @@ import Intro from "./Intro";
 import Image from "next/image";
 import ImageSrc from "public/Assests/undraw_software_engineer_re_tnjc.svg";
 import styles from "../../styles/homePage.module.css";
-
-// import { ImageComponent } from "../ImageComponent";
 const HomePage = () => {
   return (
     <div className={styles.homePage}>
@@ -42,5 +40,6 @@ const HomePage = () => {
     </div>
   );
 };
+
 
 export default HomePage;
