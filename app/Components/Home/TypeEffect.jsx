@@ -7,7 +7,7 @@ const TypeEffect = () => {
     <div className={styles.typeEffect}>
       <Typewriter
       options={{
-        strings: ["Software Developer", "Full-stack Developer","Software Developer"],
+        strings: ["Software Developer", "Full-Stack Developer","Software Developer"],
         autoStart: true,
         loop: true,
         deleteSpeed:45
