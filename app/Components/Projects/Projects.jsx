@@ -23,7 +23,7 @@ const Projects = () => {
           ImageSrc={`/Assests/manga-verse/manga-verse-home-page.jpg`}
           id={1}
           githubLink={"https://github.com/Ree-m/manga-verse"}
-          demoLink={"https://manga-verse.onrender.com/"}
+          demoLink={"https://manga-verse-beta.vercel.app/"}
         />
 
         <Project
