@@ -3,7 +3,7 @@ const projectsData = [
     id: 1,
     title: "Manga Verse",
     githubLink: "https://github.com/Ree-m/manga-verse",
-    demoLink: "https://manga-verse.onrender.com/",
+    demoLink: "https://manga-verse-beta.vercel.app/",
     description:
       "Introducing Manga Verse, a full stack manga viewing app that prioritizes browsing manga and provides an immersive reading experience. With technologies like Next.js, Express.js, MongoDB, and Puppeteer, Manga Verse incorporates a microservice architecture. Users can enjoy seamless manga reading, user authentication, manga filtering, bookmarking, and access to detailed manga information. The app aims to continually improve by implementing server-side rendering, enhancing dynamic filtering, and delivering an optimized user experience. Immerse yourself in the captivating world of manga with Manga Verse.",
     ImageSrc: `/Assests/manga-verse/manga-verse-home-page.jpg`,
