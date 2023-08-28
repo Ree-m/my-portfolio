@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { AiFillGithub } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 import { BiDetail } from "react-icons/bi";
+import {FiArrowUpRight} from "react-icons/fi"
 
 const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
   const router = useRouter();
@@ -55,7 +56,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
             e.stopPropagation()
             openInNewTab(demoLink)
           }}>
-            <CgWebsite />
+            <FiArrowUpRight />
             Live
           </button>
         </div>
