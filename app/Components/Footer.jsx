@@ -6,12 +6,10 @@ import {BsTwitter} from "react-icons/bs"
 
 import styles from "app/styles/footer.module.css";
 const Footer = () => {
-  const openInNewTab = (url) => {
-    window.open(url, "_blank", "noreferrer");
-  };
+  
   return (
     <div className={styles.footer}>
-      <span>Developed by Reem, Designed by Soumyajit Behera</span>
+      <span className={styles.footerDetails}>Developed by Reem, Designed by Soumyajit Behera</span>
       <span>Copyright © 2023 Reem</span>
       <div className={styles.footerIcons}>
        
