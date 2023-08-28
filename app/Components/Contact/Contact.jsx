@@ -47,7 +47,7 @@ const Contact = () => {
       <Stars />
         {showResult?  <div className={styles.contactConatiner}>
           <div className={styles.result}>
-          <p>Your message has been sent.Want to send another message? <span onClick={()=>setShowResult(false)}>Go here</span></p>
+          <p>Your message has been sent. Want to send another message? <span onClick={()=>setShowResult(false)}>Go here</span></p>
           </div>
           
          </div> : 
