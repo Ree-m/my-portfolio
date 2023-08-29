@@ -35,7 +35,7 @@ const Projects = () => {
           ImageSrc={`/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`}
           id={2}
           githubLink={"https://github.com/Ree-m/skinology-ecommerce-app"}
-          demoLink={"https://skinology-ecommerce-app-client.onrender.com/"}
+          demoLink={"https://skinology.vercel.app/"}
         />
 
         <Project

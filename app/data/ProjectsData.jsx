@@ -90,7 +90,7 @@ const projectsData = [
     id: 2,
     title: "Skinology",
     githubLink: "https://github.com/Ree-m/skinology-ecommerce-app",
-    demoLink: "https://skinology-ecommerce-app-client.onrender.com/",
+    demoLink: "https://skinology.vercel.app/",
     description:
       "Skinology is a skincare e-commerce app that offers a seamless shopping experience for users. With its intuitive interface and comprehensive features, users can browse, search, save their favorite skincare products effortlessly. The app incorporates a scalable architecture, utilizing technologies such as React, Express, MongoDB, and Node.js. Skinology includes key features like admin interface for product management, user authentication, cart functionality, detailed product pages, search capabilities, and visually appealing carousels.",
     ImageSrc: `/Assests/skinology-ecommerce-app-client-onrender-com-1024x768desktop-4d90e6.jpg`,
