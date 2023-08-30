@@ -44,7 +44,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
             Details
           </button>
 
-          <button onClick={() =>{
+          <button onClick={(e) =>{
             e.stopPropagation()
             openInNewTab(githubLink)
           }}>
@@ -62,7 +62,6 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
         </div>
       </div>
     </div>
-    //  </Link>
   );
 };
 
