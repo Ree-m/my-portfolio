@@ -56,7 +56,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
             e.stopPropagation()
             openInNewTab(demoLink)
           }}>
-            <FiArrowUpRight />
+            <CgWebsite />
             Live
           </button>
         </div>

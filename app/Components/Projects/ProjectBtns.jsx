@@ -19,7 +19,7 @@ const ProjectBtns = ({githubLink,demoLink}) => {
 
             <button onClick={() => openInNewTab(demoLink)}>
               <CgWebsite />
-              Live website
+              Live
             </button>
     </div>
   )
