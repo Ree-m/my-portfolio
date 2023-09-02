@@ -5,7 +5,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
 import { BiDetail } from "react-icons/bi";
 import {FiArrowUpRight} from "react-icons/fi"
-
+import Link from "next/link";
 const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
   const router = useRouter();
 
@@ -15,18 +15,11 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
 
   
   return (
+    <Link href={`/project/${id}`} className={styles.projectContainer}>
     <div
       className={styles.project}
-      onClick={() => router.push(`/project/${id}`)}
     >
-      {/* <Image
-            src={ImageSrc}
-            height={400}
-            width={400}
-            // layout="responsive"
-            alt={`Image of ${name} app`}
-            className={styles.img}
-          /> */}
+      
       <div className={styles.imgContainer}>
         <img
           src={ImageSrc}
@@ -62,6 +55,7 @@ const Project = ({ name, description, ImageSrc, id, githubLink, demoLink }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

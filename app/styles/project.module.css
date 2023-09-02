@@ -12,6 +12,10 @@
   cursor: pointer;
   text-decoration: none;
 }
+
+.projectContainer{
+  text-decoration: none;
+}
 .project p {
   font-size: 1.05rem;
   line-height: 27px;
