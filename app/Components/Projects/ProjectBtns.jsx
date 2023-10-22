@@ -1,28 +1,25 @@
-"use client"
-import Link from "next/link"
+"use client";
+import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 import { CgWebsite } from "react-icons/cg";
-import styles from "../../styles/projectBtns.module.css"
+import styles from "../../styles/projectBtns.module.css";
 
-const ProjectBtns = ({githubLink,demoLink}) => {
-    const openInNewTab = (url) => {
-        window.open(url, "_blank", "noreferrer");
-      };
-
+const ProjectBtns = ({ githubLink, demoLink }) => {
+ 
 
   return (
     <div className={styles.btns}>
-            <button onClick={() => openInNewTab(githubLink)}>
-              <AiFillGithub />
-              Github
-            </button>
+      <a target="_blank" href={githubLink}>
+        <AiFillGithub />
+        Github
+      </a>
 
-            <button onClick={() => openInNewTab(demoLink)}>
-              <CgWebsite />
-              Live
-            </button>
+      <a target="_blank" href={demoLink}>
+        <CgWebsite />
+        Live
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectBtns
+export default ProjectBtns;
