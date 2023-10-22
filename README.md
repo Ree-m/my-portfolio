@@ -132,8 +132,7 @@ The project details page.
 <img src="public/Assests/readme/portfolio-projects-details-page.jpg" alt="Image of the projects details of the app" />
 
 Contact form
-<img src="public/Assests/readme/portfolio-contact-page.jpg
-" alt="Image of conatct form" />
+<img src="public/Assests/readme/contact-form.jpg" alt="Image of conatct form" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
